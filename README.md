@@ -6,7 +6,7 @@ Some results of my DGA reversing efforts
 Subfolder | Malware Family | Alias | Write-Up
 --------- | -------------- | ----- | ----------
 newgoz    | newGOZ         | Gameover Zeus, Peer-to-Peer Zeus |   [link](https://johannesbader.ch/2014/12/the-dga-of-newgoz/)
-ramnit    | Ramnit         | [link](https://johannesbader.ch/2014/12/the-dga-of-ramnit/)
+ramnit    | Ramnit         | | [link](https://johannesbader.ch/2014/12/the-dga-of-ramnit/)
 shiotob   | Shiotob        | Urlzone, Bebloh | [link](https://johannesbader.ch/2015/01/the-dga-of-shiotob/)
 symmi     | Symmni         | | [link](http://johannesbader.ch/2015/01/the-dga-of-symmi/)
 banjori   | Banjori        | MultiBanker 2, BackPatch(er) | [link](http://johannesbader.ch/2015/02/the-dga-of-banjori/)
