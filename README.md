@@ -17,4 +17,4 @@ pykspa    | Precursor of Pykspa | | [link](http://johannesbader.ch/2015/07/pyksp
 simda     | Simda | Shiz | [link](http://johannesbader.ch/2015/03/the-dga-of-simda-shiz/)
 tinba     | Tinba | TinyBanker, Zusy  | [link](http://johannesbader.ch/2015/04/new-top-level-domains-for-tinbas-dga/)
 ranbyus   | Ranbyus | | [link](http://johannesbader.ch/2015/05/the-dga-of-ranbyus/)
-
+nymaim    | Nymaim || 
