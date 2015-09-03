@@ -12,9 +12,12 @@ symmi     | Symmni         | | [link](http://johannesbader.ch/2015/01/the-dga-of
 banjori   | Banjori        | MultiBanker 2, BackPatch(er) | [link](http://johannesbader.ch/2015/02/the-dga-of-banjori/)
 necurs    | Necurs         | | [link](http://johannesbader.ch/2015/02/the-dgas-of-necurs/)
 dircrypt  | DirCrypt       | | [link](http://johannesbader.ch/2015/03/the-dga-of-dircrypt/)
-pykspa    | Precursor of Pykspa | | [link](http://johannesbader.ch/2015/07/pykspas-inferior-dga-version/)
-          | Improved Pykspa     | | [link](http://johannesbader.ch/2015/03/the-dga-of-pykspa/)
+pykspa/precursor    | Precursor of Pykspa | | [link](http://johannesbader.ch/2015/07/pykspas-inferior-dga-version/)
+pkyspa/improved     | Improved Pykspa     | | [link](http://johannesbader.ch/2015/03/the-dga-of-pykspa/)
 simda     | Simda | Shiz | [link](http://johannesbader.ch/2015/03/the-dga-of-simda-shiz/)
 tinba     | Tinba | TinyBanker, Zusy  | [link](http://johannesbader.ch/2015/04/new-top-level-domains-for-tinbas-dga/)
 ranbyus   | Ranbyus | | [link](http://johannesbader.ch/2015/05/the-dga-of-ranbyus/)
 nymaim    | Nymaim || 
+murofet/v1 | Murofet Variant 1 || 
+murofet/v2 | Murofet Variant 2 || 
+murofet/v3 | Murofet Variant 3 || 
