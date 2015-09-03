@@ -47,7 +47,6 @@ def dga(date):
             if not index % m: 
                 domain += tld
                 break
-        quit()
         print(domain)
 
 if __name__=="__main__":
