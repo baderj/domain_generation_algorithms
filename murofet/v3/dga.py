@@ -43,7 +43,6 @@ def dga(date):
         tlds = [".ru", ".biz", ".info", ".org", ".net", ".com"]
         for i, tld in enumerate(tlds): 
             m = len(tlds) - i
-            print(m, tld)
             if not index % m: 
                 domain += tld
                 break
