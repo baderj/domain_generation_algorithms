@@ -22,3 +22,4 @@ murofet/v1 | Murofet Variant 1 | LICAT | [link](https://johannesbader.ch/2015/09
 murofet/v2 | Murofet Variant 2 | LICAT | [link](https://johannesbader.ch/2015/09/three-variants-of-murofets-dga/)
 murofet/v3 | Murofet Variant 3 | LICAT | [link](https://johannesbader.ch/2015/09/three-variants-of-murofets-dga/)
 fobber     | Fobber | Tinba v3 | |
+corebot    | CoreBot | | [link](https://johannesbader.ch/2015/09/the-dga-of-corebot/)
