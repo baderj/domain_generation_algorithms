@@ -35,8 +35,7 @@ if __name__=="__main__":
     else:
         d = datetime.now()
 
-    charset = init_rand_and_chars(2015, 9, 8, 1) 
-    #charset = init_rand_and_chars(d.year, d.month, 8, 1) 
+    charset = init_rand_and_chars(d.year, d.month, 8, 1) 
     for _ in range(40):
         generate_domain(charset)
     
