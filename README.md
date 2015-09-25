@@ -16,7 +16,8 @@ pykspa/precursor    | Precursor of Pykspa | | [link](http://johannesbader.ch/201
 pkyspa/improved     | Improved Pykspa     | | [link](http://johannesbader.ch/2015/03/the-dga-of-pykspa/)
 simda     | Simda | Shiz | [link](http://johannesbader.ch/2015/03/the-dga-of-simda-shiz/)
 tinba     | Tinba | TinyBanker, Zusy  | [link](http://johannesbader.ch/2015/04/new-top-level-domains-for-tinbas-dga/)
-ranbyus   | Ranbyus | | [link](http://johannesbader.ch/2015/05/the-dga-of-ranbyus/)
+ranbyus/may   | Ranbyus Version 1 | | [link](http://johannesbader.ch/2015/05/the-dga-of-ranbyus/)
+ranbyus/september   | Ranbyus Version 2| | [link](http://johannesbader.ch/2015/09/ranbyuss-dga-revisited/)
 nymaim    | Nymaim || 
 murofet/v1 | Murofet Variant 1 | LICAT | [link](https://johannesbader.ch/2015/09/three-variants-of-murofets-dga/)
 murofet/v2 | Murofet Variant 2 | LICAT | [link](https://johannesbader.ch/2015/09/three-variants-of-murofets-dga/)
