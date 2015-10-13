@@ -1,10 +1,11 @@
 # Domain Generation Algorithms 
-Some results of my DGA reversing efforts
+Johannes Bacher's reversing efforts 
 
 ## Overview
 
 Subfolder | Malware Family | Alias | Write-Up
 --------- | -------------- | ----- | ----------
+pizd      |   ??           |       | [link] (https://blog.avast.com/2013/06/18/your-facebook-connection-is-now-secured/)
 newgoz    | newGOZ         | Gameover Zeus, Peer-to-Peer Zeus |   [link](https://johannesbader.ch/2014/12/the-dga-of-newgoz/)
 ramnit    | Ramnit         | | [link](https://johannesbader.ch/2014/12/the-dga-of-ramnit/)
 shiotob   | Shiotob        | Urlzone, Bebloh | [link](https://johannesbader.ch/2015/01/the-dga-of-shiotob/)
