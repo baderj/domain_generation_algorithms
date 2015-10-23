@@ -3,8 +3,8 @@ from datetime import datetime
 
 def init_rand_and_chars(year, month, day, nr_b, r):
     r = (r + year + ((nr_b << 16) + (month << 8) | day)) & 0xFFFFFFFF
-    charset = [chr(x) for x in xrange(ord('a'), ord('z'))] +\
-            [chr(x) for x in xrange(ord('0'), ord('9'))]
+    charset = [chr(x) for x in range(ord('a'), ord('z'))] +\
+            [chr(x) for x in range(ord('0'), ord('9'))]
             
     return charset, r
 
