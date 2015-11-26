@@ -25,3 +25,4 @@ murofet/v3 | Murofet Variant 3 | LICAT | [link](https://johannesbader.ch/2015/09
 fobber     | Fobber | Tinba v3 | |
 corebot    | CoreBot | | [link](https://johannesbader.ch/2015/09/the-dga-of-corebot/)
 suppobox | SuppoBox | | [link](http://www.rsaconference.com/writable/presentations/file_upload/br-r01-end-to-end-analysis-of-a-domain-generating-algorithm-malware-family.pdf)
+unnamedd javascript | Unnamed | | [link]() |
