@@ -50,6 +50,7 @@ if __name__=="__main__":
         known seeds are: 
             - 0F0D5BFA
             - F2C72B14
+            - AE8714BE
     """
     parser = argparse.ArgumentParser()
     parser.add_argument("-d", "--date", help="date for which to generate domains")
