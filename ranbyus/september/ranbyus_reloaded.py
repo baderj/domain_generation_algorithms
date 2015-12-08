@@ -1,3 +1,14 @@
+"""
+    The DGA of Ranbyus as described here:
+        http://johannesbader.ch/2015/09/ranbyuss-dga-revisited/
+
+    Known Seeds are:
+        - 0F0D5BFA
+        - F2C72B14
+        - AE8714BE
+        - CE7F8514  (= ~ 31807AEB)
+"""
+
 import argparse
 from datetime import datetime
 
@@ -40,7 +51,10 @@ def dga(year, month, day, seed):
         domain = ""
         for i in range(17):
             domain += chr(random[i] % 25 + ord('a'))
-        tlds =  ["in", "me", "cc", "su", "tw", "net", "com", "pw", "org"]
+        if seed == 0xCE7F8514:
+            tlds =  ["in", "net", "org", "com", "me", "su", "tw", "cc", "pw"]
+        else:
+            tlds =  ["in", "me", "cc", "su", "tw", "net", "com", "pw", "org"]
         domain += '.' + tlds[tld_index % (len(tlds) - 1)]
         tld_index += 1
         yield domain
@@ -51,6 +65,7 @@ if __name__=="__main__":
             - 0F0D5BFA
             - F2C72B14
             - AE8714BE
+            - CE7F8514 
     """
     parser = argparse.ArgumentParser()
     parser.add_argument("-d", "--date", help="date for which to generate domains")
