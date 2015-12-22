@@ -1,7 +1,7 @@
-seed = "jc74FlUna852Ji9o"
+seed ="j193HsnW72Yqns7u"
 seed += (17 - len(seed))*"\x00"
 seed_l = [ord(s) for s in seed]
-domain = "blackfreeqazyio.cc"
+domain = "j193hsne720uie8i.cc"
 print(domain)
 for i in range(100):
     domain_l = [ord(l) for l in domain]
@@ -20,6 +20,6 @@ for i in range(100):
             else:
                 seed_sum += 1
                 
-    for tld in ['com', 'net', 'in', 'ru']:
+    for tld in ['com', 'net', 'biz', 'org']:
         domain = ''.join([chr(x) for x in new_domain]) + '.' + tld
         print(domain)
