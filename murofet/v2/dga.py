@@ -7,7 +7,7 @@ def dga(date, key):
 
     for index in range(1020):
         seed = 8*[0]
-        seed[0] = (date.year & 0xFF + 0x30) & 0xFF
+        seed[0] = ((date.year & 0xFF) + 0x30) & 0xFF
         seed[1] = date.month & 0xFF
         seed[2] = date.day & 0xFF
         seed[3] = 0
