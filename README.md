@@ -9,7 +9,7 @@ newgoz    | newGOZ         | Gameover Zeus, Peer-to-Peer Zeus |   [link](https:/
 ramnit    | Ramnit         | | [link](https://johannesbader.ch/2014/12/the-dga-of-ramnit/)
 shiotob   | Shiotob        | Urlzone, Bebloh | [link](https://johannesbader.ch/2015/01/the-dga-of-shiotob/)
 symmi     | Symmni         | | [link](http://johannesbader.ch/2015/01/the-dga-of-symmi/)
-banjori   | Banjori        | MultiBanker 2, BackPatch(er) | [link](http://johannesbader.ch/2015/02/the-dga-of-banjori/)
+banjori   | Banjori        | MultiBanker 2, BankPatch(er) | [link](http://johannesbader.ch/2015/02/the-dga-of-banjori/)
 necurs    | Necurs         | | [link](http://johannesbader.ch/2015/02/the-dgas-of-necurs/)
 dircrypt  | DirCrypt       | | [link](http://johannesbader.ch/2015/03/the-dga-of-dircrypt/)
 pykspa/precursor    | Precursor of Pykspa | | [link](http://johannesbader.ch/2015/07/pykspas-inferior-dga-version/)
@@ -26,5 +26,5 @@ fobber     | Fobber | Tinba v3 | |
 corebot    | CoreBot | | [link](https://johannesbader.ch/2015/09/the-dga-of-corebot/)
 suppobox | SuppoBox | | [link](http://www.rsaconference.com/writable/presentations/file_upload/br-r01-end-to-end-analysis-of-a-domain-generating-algorithm-malware-family.pdf)
 unnamed_javascript_dga | Unnamed | | [link](https://johannesbader.ch/2015/11/a-javascript-based-dga/) |
-kraken/v1 | Kraken Version 1 | Bobax, Oderoor |  
-kraken/v2 | Kraken Version 2 | Bobax, Oderoor | 
+kraken/v1 | Kraken Version 1 | Bobax, Oderoor |  [link](https://johannesbader.ch/2015/12/krakens-two-domain-generation-algorithms/) |
+kraken/v2 | Kraken Version 2 | Bobax, Oderoor |  [link](https://johannesbader.ch/2015/12/krakens-two-domain-generation-algorithms/) |
