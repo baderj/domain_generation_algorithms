@@ -28,3 +28,4 @@ suppobox | SuppoBox | | [link](http://www.rsaconference.com/writable/presentatio
 unnamed_javascript_dga | Unnamed | | [link](https://johannesbader.ch/2015/11/a-javascript-based-dga/) |
 kraken/v1 | Kraken Version 1 | Bobax, Oderoor |  [link](https://johannesbader.ch/2015/12/krakens-two-domain-generation-algorithms/) |
 kraken/v2 | Kraken Version 2 | Bobax, Oderoor |  [link](https://johannesbader.ch/2015/12/krakens-two-domain-generation-algorithms/) |
+dnschanger | DNSChanger | Alureon | [link](https://johannesbader.ch/2016/01/the-dga-in-alureon-dnschanger/) |
