@@ -24,13 +24,19 @@ char* dga(unsigned int day, unsigned int month, unsigned int year,
     }
 }
 
-main (int argc, char *argv[])
+int main (int argc, char *argv[])
 {
     if(argc != 5) {
         printf("Usage: dga <day> <month> <year> <seed>\n");
         printf("Example: dga 14 5 2015 b6354bc3\n"); 
         exit(0);
     }
+    /* known seeds:
+            C5F128F3 
+            B6354BC3 
+            65BA0743 
+            0478620C 
+    */
 
     dga(atoi(argv[1]), atoi(argv[2]), atoi(argv[3]), 
             strtoul(argv[4], NULL, 16), 40);
