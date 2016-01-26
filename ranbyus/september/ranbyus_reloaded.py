@@ -7,6 +7,7 @@
         - F2C72B14
         - AE8714BE
         - CE7F8514  (= ~ 31807AEB)
+        - 572473BB (= ~ A8DB8C44)
 """
 
 import argparse
@@ -66,6 +67,7 @@ if __name__=="__main__":
             - F2C72B14
             - AE8714BE
             - CE7F8514 
+            - 572473BB
     """
     parser = argparse.ArgumentParser()
     parser.add_argument("-d", "--date", help="date for which to generate domains")
