@@ -30,3 +30,4 @@ kraken/v1 | Kraken Version 1 | Bobax, Oderoor |  [link](https://johannesbader.ch
 kraken/v2 | Kraken Version 2 | Bobax, Oderoor |  [link](https://johannesbader.ch/2015/12/krakens-two-domain-generation-algorithms/) |
 dnschanger | DNSChanger | Alureon | [link](https://johannesbader.ch/2016/01/the-dga-in-alureon-dnschanger/) |
 qakbot | Qakbot |  | [link](https://johannesbader.ch/2016/02/the-dga-of-qakbot/) |
+locky | Locky |  | [link](https://blogs.forcepoint.com/security-labs/lockys-new-dga-seeding-new-domains) |
