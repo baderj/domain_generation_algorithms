@@ -40,7 +40,6 @@ def dga(date, config_nr, domain_nr):
 
     domain = ""
     for i in range(length):
-        t = ror32(c['c1']*rol32(r, i), 7) 
         r = (ror32(c['c1']*rol32(r, i), 7) + c['c3']) & 0xFFFFFFFF
         domain += chr(r % 25 + ord('a'))
     domain += '.'
