@@ -9,6 +9,7 @@
         - CE7F8514  (= ~ 31807AEB)
         - 572473BB (= ~ A8DB8C44)
         - 17794CF1 (= ~ E886B30E)
+        - C0E32524 (= ~ 3F1CDADB)
 """
 
 import argparse
