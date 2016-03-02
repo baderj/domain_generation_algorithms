@@ -8,6 +8,7 @@
         - AE8714BE
         - CE7F8514  (= ~ 31807AEB)
         - 572473BB (= ~ A8DB8C44)
+        - 17794CF1 (= ~ E886B30E)
 """
 
 import argparse
@@ -61,14 +62,6 @@ def dga(year, month, day, seed):
         yield domain
 
 if __name__=="__main__":
-    """
-        known seeds are: 
-            - 0F0D5BFA
-            - F2C72B14
-            - AE8714BE
-            - CE7F8514 
-            - 572473BB
-    """
     parser = argparse.ArgumentParser()
     parser.add_argument("-d", "--date", help="date for which to generate domains")
     parser.add_argument("-s", "--seed", help="seed as hex string", default="0F0D5BFA")
