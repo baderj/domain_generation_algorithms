@@ -13,6 +13,18 @@ config = {
     'c4': 0x2709A354,
     'tlds': ['ru', 'pw', 'eu', 'in', 'yt', 'pm', 'us', 'fr', 'de',
         'it', 'be', 'uk', 'nl', 'tf']
+    },
+2: {
+    # md5: e35bf0901f1a7db2b3752f85cd1bd044
+    # sha256: 199a28336f5d3d8051754495741de1ad1bfa89919e6c44192ba34a3441d14c3d
+    # sample: https://malwr.com/analysis/YjEyNWRhNTg0MzFiNDUwNzlkMmEyNjRmMzliNGMxODI/
+    'seed': 75,
+    'c1': 0xB11924E1,
+    'c2': 0x1BF5,
+    'c3': 0x27100001,
+    'c4': 0x2709A354,
+    'tlds': ['ru', 'pw', 'eu', 'in', 'yt', 'pm', 'us', 'fr', 'de',
+        'it', 'be', 'uk', 'nl', 'tf']
     }
 }
 
@@ -56,7 +68,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("-d", "--date", 
             help="date for which to generate domains")
-    parser.add_argument("-c", "--config", choices=[1],
+    parser.add_argument("-c", "--config", choices=[1,2],
             help="config nr", type=int, default=1)
     args = parser.parse_args()
 
