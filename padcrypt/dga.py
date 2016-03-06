@@ -50,7 +50,7 @@ if __name__=="__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("-d", "--date", help="date for which to generate domains")
     parser.add_argument("-v", "--version", help="dga version", 
-            choices=["2.2.86.1", "2.2.96.1"], default="2.2.86.1")
+            choices=["2.2.86.1", "2.2.97.0"], default="2.2.86.1")
     args = parser.parse_args()
     if args.date:
         d = datetime.strptime(args.date, "%Y-%m-%d")
