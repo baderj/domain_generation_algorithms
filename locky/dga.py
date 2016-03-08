@@ -7,10 +7,8 @@ config = {
     # sha256: 34bd23cbb9cf301ba444e1696694527ffc59edaba2bbbe25c4ac28a90df6f52a
     # sample: https://malwr.com/analysis/OTE2NzIwODkxMWUzNDBlNzhmNGZlMmFjY2ExOWEyZjQ/
     'seed': 62,
-    'c1': 0xB11924E1,
-    'c2': 0x1BF5,
-    'c3': 0x27100001,
-    'c4': 0x2709A354,
+    'shift': 7,
+    'mod': 8,
     'tlds': ['ru', 'pw', 'eu', 'in', 'yt', 'pm', 'us', 'fr', 'de',
         'it', 'be', 'uk', 'nl', 'tf']
     },
@@ -19,10 +17,8 @@ config = {
     # sha256: 199a28336f5d3d8051754495741de1ad1bfa89919e6c44192ba34a3441d14c3d
     # sample: https://malwr.com/analysis/YjEyNWRhNTg0MzFiNDUwNzlkMmEyNjRmMzliNGMxODI/
     'seed': 75,
-    'c1': 0xB11924E1,
-    'c2': 0x1BF5,
-    'c3': 0x27100001,
-    'c4': 0x2709A354,
+    'shift': 7,
+    'mod': 8,
     'tlds': ['ru', 'pw', 'eu', 'in', 'yt', 'pm', 'us', 'fr', 'de',
         'it', 'be', 'uk', 'nl', 'tf']
     },
@@ -31,10 +27,8 @@ config = {
     # sha256: 1a45085e959a449637a89174b1737f4d03d7e73dd7acfa3cfb96042a735cf400
     # sample: 
     'seed': 9,
-    'c1': 0xB11924E1,
-    'c2': 0x1BF5,
-    'c3': 0x27100001,
-    'c4': 0x2709A354,
+    'shift': 7,
+    'mod': 8,
     'tlds': ['ru', 'pw', 'eu', 'in', 'yt', 'pm', 'us', 'fr', 'de',
         'it', 'be', 'uk', 'nl', 'tf']
     },
@@ -44,10 +38,18 @@ config = {
     # sha256: f927efd7cd2da3a052d857632f78ccf04b673e2774f6ce9a075e654dfd77d940
     # sample: https://malwr.com/analysis/N2M2YmFkMzY1MTY3NGIzZmJiNWMzZDU5ZDVhZjBlNjk/  
     'seed': 7,
-    'c1': 0xB11924E1,
-    'c2': 0x1BF5,
-    'c3': 0x27100001,
-    'c4': 0x2709A354,
+    'shift': 7,
+    'mod': 8,
+    'tlds': ['ru', 'pw', 'eu', 'in', 'yt', 'pm', 'us', 'fr', 'de',
+        'it', 'be', 'uk', 'nl', 'tf']
+    },
+5: {
+    # md5: 32e2c73ed8da34d87c64267936e632cb
+    # sha256: d4dc820457bbc557b14ec0e58358646afbba70f4d5cab2276cdac8ce631a3854
+    # sample: https://malwr.com/analysis/NjVkMTBlOTdhMjAwNDUxZTk2ZGFkMjc0OTQxNDBlMTk/
+    'seed': 0,
+    'shift': 5,
+    'mod': 6,
     'tlds': ['ru', 'pw', 'eu', 'in', 'yt', 'pm', 'us', 'fr', 'de',
         'it', 'be', 'uk', 'nl', 'tf']
     }
@@ -63,26 +65,27 @@ def rol32(v, s):
 def dga(date, config_nr, domain_nr): 
     c = config[config_nr]
 
-    t = ror32(c['c1']*(date.year + c['c2']), 7)
-    t = ror32(c['c1']*(t + c['seed'] + c['c3']), 7)
-    t = ror32(c['c1']*(t + (date.day//2) + c['c3']), 7)
-    t = ror32(c['c1']*(t + date.month + c['c4']), 7)
+    t = ror32( 0xB11924E1*(date.year + 0x1BF5), c['shift'])
+    if c['seed']:
+        t = ror32( 0xB11924E1*(t + c['seed'] + 0x27100001), c['shift'])
+    t = ror32( 0xB11924E1*(t + (date.day//2) + 0x27100001), c['shift'])
+    t = ror32( 0xB11924E1*(t + date.month + 0x2709A354), c['shift'])
 
-    nr = rol32(domain_nr % 8, 21)
+    nr = rol32(domain_nr % c['mod'], 21)
     s = rol32(c['seed'], 17)
 
-    r = (ror32(c['c1']*(nr + t + s + c['c3']), 7) + c['c3']) & 0xFFFFFFFF
+    r = (ror32(0xB11924E1*(nr + t + s + 0x27100001), c['shift']) + 0x27100001) & 0xFFFFFFFF
 
     length = (r % 11) + 5
 
     domain = ""
     for i in range(length):
-        r = (ror32(c['c1']*rol32(r, i), 7) + c['c3']) & 0xFFFFFFFF
+        r = (ror32(0xB11924E1*rol32(r, i), c['shift']) + 0x27100001) & 0xFFFFFFFF
         domain += chr(r % 25 + ord('a'))
     domain += '.'
-    r = ror32(r*c['c1'], 7)
+    r = ror32(r*0xB11924E1, c['shift'])
     tlds = c['tlds']
-    tld_i = (r + c['c3']) % len(tlds)
+    tld_i = (r + 0x27100001) % len(tlds)
     domain += tlds[tld_i]
     return domain
 
@@ -93,7 +96,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("-d", "--date", 
             help="date for which to generate domains")
-    parser.add_argument("-c", "--config", choices=[1,2,3],
+    parser.add_argument("-c", "--config", choices=range(1,6),
             help="config nr", type=int, default=1)
     args = parser.parse_args()
 
