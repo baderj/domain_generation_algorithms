@@ -52,6 +52,16 @@ config = {
     'mod': 6,
     'tlds': ['ru', 'pw', 'eu', 'in', 'yt', 'pm', 'us', 'fr', 'de',
         'it', 'be', 'uk', 'nl', 'tf']
+    },
+6: {
+    # md5: d2ea1565ae004368655edb5169b56a0f
+    # sha256: 9b4b37cbb9845b093867675fb898330a8bd7ed087d587cba8cd21064c9a6e526
+    # sample: https://sandbox.deepviz.com/report/hash/d2ea1565ae004368655edb5169b56a0f/
+    'seed': 660,
+    'shift': 7,
+    'mod': 8,
+    'tlds': ['ru', 'pw', 'eu', 'in', 'yt', 'pm', 'us', 'fr', 'de',
+        'it', 'be', 'uk', 'nl', 'tf']
     }
 }
 
@@ -96,7 +106,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("-d", "--date", 
             help="date for which to generate domains")
-    parser.add_argument("-c", "--config", choices=range(1,6),
+    parser.add_argument("-c", "--config", choices=range(1,7),
             help="config nr", type=int, default=1)
     args = parser.parse_args()
 
