@@ -69,6 +69,6 @@ if __name__ == "__main__":
     else:
         d = datetime.now()
 
-    for i in range(8):
+    for i in range(12):
         print( dga(d, args.config, i) )
             
