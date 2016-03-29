@@ -32,3 +32,4 @@ dnschanger | DNSChanger | Alureon | [link](https://johannesbader.ch/2016/01/the-
 qakbot | Qakbot |  | [link](https://johannesbader.ch/2016/02/the-dga-of-qakbot/) |
 locky | Locky |  | [link](https://blogs.forcepoint.com/security-labs/lockys-new-dga-seeding-new-domains) |
 padcrypt | Padcrypt | | [link](http://johannesbader.ch/2016/03/the-dga-of-padcrypt/) |
+gozi | Gozi | Ursnif, Snifula, Papras | [link](http://www.govcert.admin.ch/blog/18/gozi-isfb-when-a-bug-really-is-a-feature) |
