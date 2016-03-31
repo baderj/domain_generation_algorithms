@@ -11,6 +11,15 @@ config = {
     'tlds': ['ru', 'info', 'biz', 'click', 'su', 'work', 'pl', 'org', 'pw',
         'xyz']
     },
+2: {
+    # md5: 5fb8f8f75342ff68ed8c79cc375f0cd8
+    # sha256: bc7c45b5a05f3f0deea162578e45d5fb64c9aa72a81395083509c0f78b6ae1de
+    # sample: https://malwr.com/analysis/NzFlYzRkOWZhZDliNDZmMThkMzkzMjU2ZmE5ODUzMjE/
+    'seed': 5566,
+    'shift': 7,
+    'tlds': ['ru', 'info', 'biz', 'click', 'su', 'work', 'pl', 'org', 'pw',
+        'xyz']
+    }
 }
 
 def ror32(v, s):
@@ -60,7 +69,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("-d", "--date", 
             help="date for which to generate domains")
-    parser.add_argument("-c", "--config", choices=range(1,2),
+    parser.add_argument("-c", "--config", choices=range(1,3),
             help="config nr", type=int, default=1)
     args = parser.parse_args()
 
