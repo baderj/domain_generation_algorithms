@@ -2,6 +2,9 @@ from datetime import datetime
 from ctypes import c_uint
 import argparse
 
+
+wordlists = {'luther': 2, 'rfc4343': 3}
+
 class Rand:
 
     def __init__(self, seed):
@@ -18,7 +21,7 @@ def get_words(wordlist):
 def dga(date, wordlist):
     words = get_words(wordlist)
     diff = date - datetime.strptime("2015-01-01", "%Y-%m-%d")
-    days_passed = (diff.days >> 2)
+    days_passed = (diff.days // wordlists[wordlist])
     flag = 1
     seed = (flag << 16) + days_passed - 306607824
     r = Rand(seed) 
@@ -44,7 +47,7 @@ if __name__ == "__main__":
     parser.add_argument("-d", "--date", 
             help="date for which to generate domains")
     parser.add_argument("-w", "--wordlist", help="wordlist", 
-            choices={'luther'}, default='luther')
+            choices=wordlists.keys(), default='luther')
     args = parser.parse_args()
     if args.date:
         d = datetime.strptime(args.date, "%Y-%m-%d")
