@@ -3,7 +3,7 @@ from ctypes import c_uint
 import argparse
 
 
-wordlists = {'luther': 2, 'rfc4343': 3}
+wordlists = {'luther': 4, 'rfc4343': 3}
 
 class Rand:
 
