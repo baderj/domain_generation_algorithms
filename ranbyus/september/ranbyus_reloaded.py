@@ -10,6 +10,7 @@
         - 572473BB (= ~ A8DB8C44)
         - 17794CF1 (= ~ E886B30E)
         - C0E32524 (= ~ 3F1CDADB)
+        - 7CB7966E (= ~ 83486991)
 """
 
 import argparse
