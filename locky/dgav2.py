@@ -95,7 +95,7 @@ def dga(date, config_nr, domain_nr):
     domain += '.'
     k = ror32(k*0xB11924E1, c['shift'])
     tlds = c['tlds']
-    tld_i = (k + 0x27100001) % len(tlds)
+    tld_i = ((k + 0x27100001) & 0xFFFFFFFF) % len(tlds)
     domain += tlds[tld_i]
     return domain
 
