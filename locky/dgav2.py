@@ -55,6 +55,15 @@ config = {
     'shift': 7,
     'tlds': ['ru', 'info', 'biz', 'click', 'su', 'work', 'pl', 'org', 'pw',
         'xyz']
+    },
+7: {
+    # md5: bfb5fec661318f07b0eca8520bb8c53f 
+    # sha256:  92a1d459194d0bf86ff26103a9c92d64059e1caa9d98e1ed9002058a0da8f53d
+    # sample: https://malwr.com/analysis/Mzc0MTU0MTQ1YjRlNGVhYzgzMmQ0MGQ3YWY1NWUzZDg/
+    'seed': 9099,
+    'shift': 7,
+    'tlds': ['ru', 'info', 'biz', 'click', 'su', 'work', 'pl', 'org', 'pw',
+        'xyz']
     }
 }
 
