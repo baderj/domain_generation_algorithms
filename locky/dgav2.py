@@ -76,7 +76,16 @@ config = {
     },
 9: {
     # md5: 6c3e68307d01e4340c83fac94f237237  
-    'seed': 9133
+    'seed': 9133,
+    'shift': 7,
+    'tlds': ['ru', 'info', 'biz', 'click', 'su', 'work', 'pl', 'org', 'pw',
+        'xyz']
+    },
+10: {
+    # md5:  17bf0d1776de896315cb2d63118f9667
+    # sha256: 98d6ebd37c861beaf7420494aa8dfd43e4904145bac62c607965b3a8d92967c1
+    # sample: https://malwr.com/analysis/NWJiNjJhZWU2YjU2NGRlYjg5Njk2ZGJlMzZkZDcxYWI/
+    'seed': 9199,
     'shift': 7,
     'tlds': ['ru', 'info', 'biz', 'click', 'su', 'work', 'pl', 'org', 'pw',
         'xyz']
