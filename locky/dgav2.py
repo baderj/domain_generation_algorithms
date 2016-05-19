@@ -108,6 +108,24 @@ config = {
     'tlds': ['ru', 'info', 'biz', 'click', 'su', 'work', 'pl', 'org', 'pw',
         'xyz']
     }
+13: {
+    # md5: 6eb8865bf055ba30cc9e2843f16ee461
+    # sha256:
+    # sample: 
+    'shift': 7,
+    'seed': 9998,
+    'tlds': ['ru', 'info', 'biz', 'click', 'su', 'work', 'pl', 'org', 'pw',
+        'xyz']
+    },
+14: {
+    # md5: b5660f65369abc67cfa4a65e7d0d65d9
+    # sha256: 478ab3b1f465dc1088b0d1e7cef8cab1f3b736856f6be279d4e7a8113ad065d5
+    # sample: https://www.virustotal.com/en/file/478ab3b1f465dc1088b0d1e7cef8cab1f3b736856f6be279d4e7a8113ad065d5/analysis/
+    'shift': 7,
+    'seed': 9992,
+    'tlds': ['ru', 'info', 'biz', 'click', 'su', 'work', 'pl', 'org', 'pw',
+        'xyz']
+    }
 }
 
 def ror32(v, s):
