@@ -98,6 +98,15 @@ config = {
     'shift': 7,
     'tlds': ['ru', 'info', 'biz', 'click', 'su', 'work', 'pl', 'org', 'pw',
         'xyz']
+    },
+12: {
+    # md5:
+    # sha256:
+    # sample: https://malwr.com/analysis/NzY4YmRjZDA1MTYwNGEzMzg2MWZkNmUyODIzMWRhMDM/
+    'shift': 7,
+    'seed': 9088,
+    'tlds': ['ru', 'info', 'biz', 'click', 'su', 'work', 'pl', 'org', 'pw',
+        'xyz']
     }
 }
 
