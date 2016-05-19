@@ -107,7 +107,7 @@ config = {
     'seed': 9088,
     'tlds': ['ru', 'info', 'biz', 'click', 'su', 'work', 'pl', 'org', 'pw',
         'xyz']
-    }
+    },
 13: {
     # md5: 6eb8865bf055ba30cc9e2843f16ee461
     # sha256:
