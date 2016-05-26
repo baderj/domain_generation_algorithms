@@ -125,6 +125,15 @@ config = {
     'seed': 9992,
     'tlds': ['ru', 'info', 'biz', 'click', 'su', 'work', 'pl', 'org', 'pw',
         'xyz']
+    },
+15: {
+    # md5: aceec3d6334e925297efc8d4232473c2
+    # sha256: 5c18ab258a3a89980aaa9d673a07851fcab4443733a00c4fbf14d21906b65c9e
+    # sample: https://www.virustotal.com/en/file/5c18ab258a3a89980aaa9d673a07851fcab4443733a00c4fbf14d21906b65c9e/analysis/1463993646/
+    'shift': 7,
+    'seed': 1511,
+    'tlds': ['ru', 'info', 'biz', 'click', 'su', 'work', 'pl', 'org', 'pw',
+        'xyz']
     }
 }
 
