@@ -134,6 +134,24 @@ config = {
     'seed': 1511,
     'tlds': ['ru', 'info', 'biz', 'click', 'su', 'work', 'pl', 'org', 'pw',
         'xyz']
+    },
+16: {
+    # md5: 
+    # sha256: 
+    # sample: (downloaded by) https://malwr.com/analysis/ODU3OWM4ZDMxMmE2NDllZWE4MWQ3ZGQ2ZTBjZTc4MWI/
+    'shift': 7,
+    'seed': 1513,
+    'tlds': ['ru', 'info', 'biz', 'click', 'su', 'work', 'pl', 'org', 'pw',
+        'xyz']
+    },
+17: {
+    # md5: 89f35a5d22088e3ca8664697e895b7a5 
+    # sha256: 
+    # sample: 
+    'shift': 7,
+    'seed': 1517,
+    'tlds': ['ru', 'info', 'biz', 'click', 'su', 'work', 'pl', 'org', 'pw',
+        'xyz']
     }
 }
 
