@@ -152,6 +152,15 @@ config = {
     'seed': 1517,
     'tlds': ['ru', 'info', 'biz', 'click', 'su', 'work', 'pl', 'org', 'pw',
         'xyz']
+    },
+18: {
+    # md5: a9d09406e0982d652b6db291558df71a 
+    # sha256: 
+    # sample: 
+    'shift': 7,
+    'seed': 9056,
+    'tlds': ['ru', 'info', 'biz', 'click', 'su', 'work', 'pl', 'org', 'pw',
+        'xyz']
     }
 }
 
