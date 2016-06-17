@@ -25,7 +25,7 @@ murofet/v3 | Murofet Variant 3 | LICAT | [link](https://johannesbader.ch/2015/09
 fobber     | Fobber | Tinba v3 | |
 corebot    | CoreBot | | [link](https://johannesbader.ch/2015/09/the-dga-of-corebot/)
 suppobox | SuppoBox | | [link](http://www.rsaconference.com/writable/presentations/file_upload/br-r01-end-to-end-analysis-of-a-domain-generating-algorithm-malware-family.pdf)
-unnamed_javascript_dga | Unnamed | | [link](https://johannesbader.ch/2015/11/a-javascript-based-dga/) |
+unnamed_javascript_dga | Unnamed | | [link](https://johannesbader.ch/2015/11/a-javascript-based-dga/) *Obsolete*, see *Proslikefan* |
 kraken/v1 | Kraken Version 1 | Bobax, Oderoor |  [link](https://johannesbader.ch/2015/12/krakens-two-domain-generation-algorithms/) |
 kraken/v2 | Kraken Version 2 | Bobax, Oderoor |  [link](https://johannesbader.ch/2015/12/krakens-two-domain-generation-algorithms/) |
 dnschanger | DNSChanger | Alureon | [link](https://johannesbader.ch/2016/01/the-dga-in-alureon-dnschanger/) |
@@ -34,3 +34,4 @@ locky | Locky |  | [link](https://blogs.forcepoint.com/security-labs/lockys-new-
 padcrypt | Padcrypt | | [link](http://johannesbader.ch/2016/03/the-dga-of-padcrypt/) |
 gozi | Gozi | Ursnif, Snifula, Papras | [link](http://www.govcert.admin.ch/blog/18/gozi-isfb-when-a-bug-really-is-a-feature) |
 qadars | Qadars | | [link](https://www.johannesbader.ch/2016/04/the-dga-of-qadars/)
+proslikefan | Proslikefan | | [link](https://johannesbader.ch/2016/06/proslikefan/) 
