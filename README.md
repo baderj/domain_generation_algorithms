@@ -34,4 +34,5 @@ locky | Locky |  | [link](https://blogs.forcepoint.com/security-labs/lockys-new-
 padcrypt | Padcrypt | | [link](http://johannesbader.ch/2016/03/the-dga-of-padcrypt/) |
 gozi | Gozi | Ursnif, Snifula, Papras | [link](http://www.govcert.admin.ch/blog/18/gozi-isfb-when-a-bug-really-is-a-feature) |
 qadars | Qadars | | [link](https://www.johannesbader.ch/2016/04/the-dga-of-qadars/)
+sisron | Sisron | TOMB, Win32/Agent.WRQ, Trojan.Scar |  [link](https://www.johannesbader.ch/2016/06/the-dga-of-sisron/)
 proslikefan | Proslikefan | | [link](https://johannesbader.ch/2016/06/proslikefan/) 

@@ -89,6 +89,78 @@ config = {
     'shift': 7,
     'tlds': ['ru', 'info', 'biz', 'click', 'su', 'work', 'pl', 'org', 'pw',
         'xyz']
+    },
+11: {
+    # md5:  
+    # sha256: 
+    # sample: 
+    'seed': 9190,
+    'shift': 7,
+    'tlds': ['ru', 'info', 'biz', 'click', 'su', 'work', 'pl', 'org', 'pw',
+        'xyz']
+    },
+12: {
+    # md5:
+    # sha256:
+    # sample: https://malwr.com/analysis/NzY4YmRjZDA1MTYwNGEzMzg2MWZkNmUyODIzMWRhMDM/
+    'shift': 7,
+    'seed': 9088,
+    'tlds': ['ru', 'info', 'biz', 'click', 'su', 'work', 'pl', 'org', 'pw',
+        'xyz']
+    },
+13: {
+    # md5: 6eb8865bf055ba30cc9e2843f16ee461
+    # sha256:
+    # sample: 
+    'shift': 7,
+    'seed': 9998,
+    'tlds': ['ru', 'info', 'biz', 'click', 'su', 'work', 'pl', 'org', 'pw',
+        'xyz']
+    },
+14: {
+    # md5: b5660f65369abc67cfa4a65e7d0d65d9
+    # sha256: 478ab3b1f465dc1088b0d1e7cef8cab1f3b736856f6be279d4e7a8113ad065d5
+    # sample: https://www.virustotal.com/en/file/478ab3b1f465dc1088b0d1e7cef8cab1f3b736856f6be279d4e7a8113ad065d5/analysis/
+    'shift': 7,
+    'seed': 9992,
+    'tlds': ['ru', 'info', 'biz', 'click', 'su', 'work', 'pl', 'org', 'pw',
+        'xyz']
+    },
+15: {
+    # md5: aceec3d6334e925297efc8d4232473c2
+    # sha256: 5c18ab258a3a89980aaa9d673a07851fcab4443733a00c4fbf14d21906b65c9e
+    # sample: https://www.virustotal.com/en/file/5c18ab258a3a89980aaa9d673a07851fcab4443733a00c4fbf14d21906b65c9e/analysis/1463993646/
+    'shift': 7,
+    'seed': 1511,
+    'tlds': ['ru', 'info', 'biz', 'click', 'su', 'work', 'pl', 'org', 'pw',
+        'xyz']
+    },
+16: {
+    # md5: 
+    # sha256: 
+    # sample: (downloaded by) https://malwr.com/analysis/ODU3OWM4ZDMxMmE2NDllZWE4MWQ3ZGQ2ZTBjZTc4MWI/
+    'shift': 7,
+    'seed': 1513,
+    'tlds': ['ru', 'info', 'biz', 'click', 'su', 'work', 'pl', 'org', 'pw',
+        'xyz']
+    },
+17: {
+    # md5: 89f35a5d22088e3ca8664697e895b7a5 
+    # sha256: 
+    # sample: 
+    'shift': 7,
+    'seed': 1517,
+    'tlds': ['ru', 'info', 'biz', 'click', 'su', 'work', 'pl', 'org', 'pw',
+        'xyz']
+    },
+18: {
+    # md5: a9d09406e0982d652b6db291558df71a 
+    # sha256: 
+    # sample: 
+    'shift': 7,
+    'seed': 9056,
+    'tlds': ['ru', 'info', 'biz', 'click', 'su', 'work', 'pl', 'org', 'pw',
+        'xyz']
     }
 }
 
