@@ -3,165 +3,76 @@ from datetime import datetime
 
 config = {
 1: {
-    # md5: 81e85dcaf482aba2f8ea047145490493
-    # sha256: 9afb127e733b01952f00a8174291d39f740b6df2c90d0422b4d6f2e2e6bc7d1a
-    # sample: https://virustotal.com/en/file/9afb127e733b01952f00a8174291d39f740b6df2c90d0422b4d6f2e2e6bc7d1a/analysis/
-    'seed': 7077,
+    # md5: b28da1f2a5d889594a0e77e0853bcf29
+    # sha256: 34bd23cbb9cf301ba444e1696694527ffc59edaba2bbbe25c4ac28a90df6f52a
+    # sample: https://malwr.com/analysis/OTE2NzIwODkxMWUzNDBlNzhmNGZlMmFjY2ExOWEyZjQ/
+    'seed': 62,
     'shift': 7,
-    'tlds': ['ru', 'info', 'biz', 'click', 'su', 'work', 'pl', 'org', 'pw',
-        'xyz']
+    'mod': 8,
+    'tlds': ['ru', 'pw', 'eu', 'in', 'yt', 'pm', 'us', 'fr', 'de',
+        'it', 'be', 'uk', 'nl', 'tf']
     },
 2: {
-    # md5: 5fb8f8f75342ff68ed8c79cc375f0cd8
-    # sha256: bc7c45b5a05f3f0deea162578e45d5fb64c9aa72a81395083509c0f78b6ae1de
-    # sample: https://malwr.com/analysis/NzFlYzRkOWZhZDliNDZmMThkMzkzMjU2ZmE5ODUzMjE/
-    'seed': 5566,
+    # md5: e35bf0901f1a7db2b3752f85cd1bd044
+    # sha256: 199a28336f5d3d8051754495741de1ad1bfa89919e6c44192ba34a3441d14c3d
+    # sample: https://malwr.com/analysis/YjEyNWRhNTg0MzFiNDUwNzlkMmEyNjRmMzliNGMxODI/
+    'seed': 75,
     'shift': 7,
-    'tlds': ['ru', 'info', 'biz', 'click', 'su', 'work', 'pl', 'org', 'pw',
-        'xyz']
+    'mod': 8,
+    'tlds': ['ru', 'pw', 'eu', 'in', 'yt', 'pm', 'us', 'fr', 'de',
+        'it', 'be', 'uk', 'nl', 'tf']
     },
 3: {
-    # md5: 19079496f6abfafd9a99d02098556a79
-    # sha256: 5dd6188efe13268bb9ac20ecdb257085e7d62163
-    # sample: https://malwr.com/analysis/Yzg5ZWMyZDZmNGFhNGU0YWJjMzY3YjBmMjY4Y2JlMDM/
-    'seed': 9106,
-    'shift': 7,
-    'tlds': ['ru', 'info', 'biz', 'click', 'su', 'work', 'pl', 'org', 'pw',
-        'xyz']
-    },
-4: {
-    # md5: 0e223d578eaddec361498591ec8c1a19
-    # sha256: 
+    # md5: 872018251970f0a739aa71d3cd313efa
+    # sha256: 1a45085e959a449637a89174b1737f4d03d7e73dd7acfa3cfb96042a735cf400
     # sample: 
-    'seed': 5579,
+    'seed': 9,
     'shift': 7,
-    'tlds': ['ru', 'info', 'biz', 'click', 'su', 'work', 'pl', 'org', 'pw',
-        'xyz']
+    'mod': 8,
+    'tlds': ['ru', 'pw', 'eu', 'in', 'yt', 'pm', 'us', 'fr', 'de',
+        'it', 'be', 'uk', 'nl', 'tf']
+    },
+
+4: {
+    # md5: 3f118d0b888430ab9f58fc2589207988
+    # sha256: f927efd7cd2da3a052d857632f78ccf04b673e2774f6ce9a075e654dfd77d940
+    # sample: https://malwr.com/analysis/N2M2YmFkMzY1MTY3NGIzZmJiNWMzZDU5ZDVhZjBlNjk/  
+    'seed': 7,
+    'shift': 7,
+    'mod': 8,
+    'tlds': ['ru', 'pw', 'eu', 'in', 'yt', 'pm', 'us', 'fr', 'de',
+        'it', 'be', 'uk', 'nl', 'tf']
     },
 5: {
-    # md5: 6cb11f4066f74556dd14d27008d867b4
-    # sha256: 353ea18baa6c9c796a7b48bcccbf4c9c3c6aa63f8b4dd55d796c65e22028b77b
-    # sample: https://malwr.com/analysis/N2Q4YWUyM2I3Y2VlNGQwYzllMjczNzE2Njc1ZTFhZWI/
-    'seed': 111,
-    'shift': 7,
-    'tlds': ['ru', 'info', 'biz', 'click', 'su', 'work', 'pl', 'org', 'pw',
-        'xyz']
+    # md5: 32e2c73ed8da34d87c64267936e632cb
+    # sha256: d4dc820457bbc557b14ec0e58358646afbba70f4d5cab2276cdac8ce631a3854
+    # sample: https://malwr.com/analysis/NjVkMTBlOTdhMjAwNDUxZTk2ZGFkMjc0OTQxNDBlMTk/
+    'seed': 0,
+    'shift': 5,
+    'mod': 6,
+    'tlds': ['ru', 'pw', 'eu', 'in', 'yt', 'pm', 'us', 'fr', 'de',
+        'it', 'be', 'uk', 'nl', 'tf']
     },
 6: {
-    # md5: ed534695e79a2a70e8b15f8873cdfa02
-    # sha256:  
-    # sample: https://www.sophos.com/en-us/threat-center/threat-analyses/viruses-and-spyware/Troj~Ransom-CUL/detailed-analysis.aspx
-    'seed': 9044,
-    'shift': 7,
-    'tlds': ['ru', 'info', 'biz', 'click', 'su', 'work', 'pl', 'org', 'pw',
-        'xyz']
+    # md5: d2ea1565ae004368655edb5169b56a0f
+    # sha256: 9b4b37cbb9845b093867675fb898330a8bd7ed087d587cba8cd21064c9a6e526
+    # sample: https://sandbox.deepviz.com/report/hash/d2ea1565ae004368655edb5169b56a0f/
+   'seed': 660,
+   'shift': 7,
+   'mod': 8,
+   'tlds': ['ru', 'pw', 'eu', 'in', 'yt', 'pm', 'us', 'fr', 'de',
+        'it', 'be', 'uk', 'nl', 'tf']
     },
 7: {
-    # md5: bfb5fec661318f07b0eca8520bb8c53f 
-    # sha256:  92a1d459194d0bf86ff26103a9c92d64059e1caa9d98e1ed9002058a0da8f53d
-    # sample: https://malwr.com/analysis/Mzc0MTU0MTQ1YjRlNGVhYzgzMmQ0MGQ3YWY1NWUzZDg/
-    'seed': 9099,
-    'shift': 7,
-    'tlds': ['ru', 'info', 'biz', 'click', 'su', 'work', 'pl', 'org', 'pw',
-        'xyz']
-    },
-8: {
-    # md5: a075610a69e196ab74f79508dbcf5eef
-    # sha256: caa6e59e98c22a3f9159412a612ad170d2683640e1845afb6f533f279f5e6577
-    # sample: https://malwr.com/analysis/OWJhZjQ5ZmE4YjY4NDFhYmFhNjIxZDcyYmFkYzlhYTM/
-    'seed': 9047,
-    'shift': 7,
-    'tlds': ['ru', 'info', 'biz', 'click', 'su', 'work', 'pl', 'org', 'pw',
-        'xyz']
-    },
-9: {
-    # md5: 6c3e68307d01e4340c83fac94f237237  
-    'seed': 9133,
-    'shift': 7,
-    'tlds': ['ru', 'info', 'biz', 'click', 'su', 'work', 'pl', 'org', 'pw',
-        'xyz']
-    },
-10: {
-    # md5:  17bf0d1776de896315cb2d63118f9667
-    # sha256: 98d6ebd37c861beaf7420494aa8dfd43e4904145bac62c607965b3a8d92967c1
-    # sample: https://malwr.com/analysis/NWJiNjJhZWU2YjU2NGRlYjg5Njk2ZGJlMzZkZDcxYWI/
-    'seed': 9199,
-    'shift': 7,
-    'tlds': ['ru', 'info', 'biz', 'click', 'su', 'work', 'pl', 'org', 'pw',
-        'xyz']
-    },
-11: {
-    # md5:  
-    # sha256: 
-    # sample: 
-    'seed': 9190,
-    'shift': 7,
-    'tlds': ['ru', 'info', 'biz', 'click', 'su', 'work', 'pl', 'org', 'pw',
-        'xyz']
-    },
-12: {
-    # md5:
-    # sha256:
-    # sample: https://malwr.com/analysis/NzY4YmRjZDA1MTYwNGEzMzg2MWZkNmUyODIzMWRhMDM/
-    'shift': 7,
-    'seed': 9088,
-    'tlds': ['ru', 'info', 'biz', 'click', 'su', 'work', 'pl', 'org', 'pw',
-        'xyz']
-    },
-13: {
-    # md5: 6eb8865bf055ba30cc9e2843f16ee461
-    # sha256:
-    # sample: 
-    'shift': 7,
-    'seed': 9998,
-    'tlds': ['ru', 'info', 'biz', 'click', 'su', 'work', 'pl', 'org', 'pw',
-        'xyz']
-    },
-14: {
-    # md5: b5660f65369abc67cfa4a65e7d0d65d9
-    # sha256: 478ab3b1f465dc1088b0d1e7cef8cab1f3b736856f6be279d4e7a8113ad065d5
-    # sample: https://www.virustotal.com/en/file/478ab3b1f465dc1088b0d1e7cef8cab1f3b736856f6be279d4e7a8113ad065d5/analysis/
-    'shift': 7,
-    'seed': 9992,
-    'tlds': ['ru', 'info', 'biz', 'click', 'su', 'work', 'pl', 'org', 'pw',
-        'xyz']
-    },
-15: {
-    # md5: aceec3d6334e925297efc8d4232473c2
-    # sha256: 5c18ab258a3a89980aaa9d673a07851fcab4443733a00c4fbf14d21906b65c9e
-    # sample: https://www.virustotal.com/en/file/5c18ab258a3a89980aaa9d673a07851fcab4443733a00c4fbf14d21906b65c9e/analysis/1463993646/
-    'shift': 7,
-    'seed': 1511,
-    'tlds': ['ru', 'info', 'biz', 'click', 'su', 'work', 'pl', 'org', 'pw',
-        'xyz']
-    },
-16: {
-    # md5: 
-    # sha256: 
-    # sample: (downloaded by) https://malwr.com/analysis/ODU3OWM4ZDMxMmE2NDllZWE4MWQ3ZGQ2ZTBjZTc4MWI/
-    'shift': 7,
-    'seed': 1513,
-    'tlds': ['ru', 'info', 'biz', 'click', 'su', 'work', 'pl', 'org', 'pw',
-        'xyz']
-    },
-17: {
-    # md5: 89f35a5d22088e3ca8664697e895b7a5 
-    # sha256: 
-    # sample: 
-    'shift': 7,
-    'seed': 1517,
-    'tlds': ['ru', 'info', 'biz', 'click', 'su', 'work', 'pl', 'org', 'pw',
-        'xyz']
-    },
-18: {
-    # md5: a9d09406e0982d652b6db291558df71a 
-    # sha256: 
-    # sample: 
-    'shift': 7,
-    'seed': 9056,
-    'tlds': ['ru', 'info', 'biz', 'click', 'su', 'work', 'pl', 'org', 'pw',
-        'xyz']
-    }
+   # md5: 69b933a694710f8ceb314dc897a94cbe
+   # sha256: 07bed9baa42996bded75dacf5c2611ba5d3a3f19b8588ea734530f74c2586087
+   # sample: https://malwr.com/analysis/MTM0ODY5N2VlOWQ1NGQ4YWFiNTI5ZGYxOWNlMTEwMWU/
+   'seed': 555,
+   'shift': 7,
+   'mod': 8,
+   'tlds': ['ru', 'pw', 'eu', 'in', 'yt', 'pm', 'us', 'fr', 'de',
+        'it', 'be', 'uk', 'nl', 'tf']
+   }
 }
 
 def ror32(v, s):
@@ -169,41 +80,35 @@ def ror32(v, s):
     return ((v >> s) | (v << (32-s))) & 0xFFFFFFFF
 
 def rol32(v, s):
-    v &= 0xFFFFFFFF
     return ((v << s) | (v >> (32-s))) & 0xFFFFFFFF
 
 def dga(date, config_nr, domain_nr): 
     c = config[config_nr]
-    seed_shifted = rol32(c['seed'], 17)
-    dnr_shifted = rol32(domain_nr, 21)
 
-    k = 0
-    year = date.year
-    for _ in range(7):
-        t_0 = ror32(0xB11924E1 * (year + k + 0x1BF5), c['shift']) & 0xFFFFFFFF
-        t_1 = ((t_0 + 0x27100001) ^ k) & 0xFFFFFFFF
-        t_2 = (ror32(0xB11924E1 * (t_1 + c['seed']), c['shift'])) & 0xFFFFFFFF
-        t_3 = ((t_2 + 0x27100001) ^ t_1) & 0xFFFFFFFF
-        t_4 = (ror32(0xB11924E1 * (date.day//2 + t_3), c['shift'])) & 0xFFFFFFFF
-        t_5 = (0xD8EFFFFF - t_4 + t_3) & 0xFFFFFFFF
-        t_6 = (ror32(0xB11924E1 * (date.month + t_5 - 0x65CAD), c['shift'])) & 0xFFFFFFFF
-        t_7 = (t_5 + t_6 + 0x27100001) & 0xFFFFFFFF
-        t_8 = (ror32(0xB11924E1 * (t_7 + seed_shifted + dnr_shifted), c['shift'])) & 0xFFFFFFFF
-        k = ((t_8 + 0x27100001) ^ t_7) & 0xFFFFFFFF
-        year += 1
+    t = ror32( 0xB11924E1*(date.year + 0x1BF5), c['shift'])
+    if c['seed']:
+        t = ror32( 0xB11924E1*(t + c['seed'] + 0x27100001), c['shift'])
+    t = ror32( 0xB11924E1*(t + (date.day//2) + 0x27100001), c['shift'])
+    t = ror32( 0xB11924E1*(t + date.month + 0x2709A354), c['shift'])
 
-    length = (k % 11) + 7
+    nr = rol32(domain_nr % c['mod'], 21)
+    s = rol32(c['seed'], 17)
+
+    r = (ror32(0xB11924E1*(nr + t + s + 0x27100001), c['shift']) + 0x27100001) & 0xFFFFFFFF
+
+    length = (r % 11) + 5
+
     domain = ""
     for i in range(length):
-        k = (ror32(0xB11924E1*rol32(k, i), c['shift']) + 0x27100001) & 0xFFFFFFFF
-        domain += chr(k % 25 + ord('a'))
-
+        r = (ror32(0xB11924E1*rol32(r, i), c['shift']) + 0x27100001) & 0xFFFFFFFF
+        domain += chr(r % 25 + ord('a'))
     domain += '.'
-    k = ror32(k*0xB11924E1, c['shift'])
+    r = ror32(r*0xB11924E1, c['shift'])
     tlds = c['tlds']
-    tld_i = ((k + 0x27100001) & 0xFFFFFFFF) % len(tlds)
+    tld_i = ((r + 0x27100001) & 0xffffffff) % len(tlds)
     domain += tlds[tld_i]
     return domain
+
 
 
 
@@ -211,7 +116,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("-d", "--date", 
             help="date for which to generate domains")
-    parser.add_argument("-c", "--config", choices=range(1,len(config)+1),
+    parser.add_argument("-c", "--config", choices=range(1,8),
             help="config nr", type=int, default=1)
     args = parser.parse_args()
 
@@ -220,6 +125,6 @@ if __name__ == "__main__":
     else:
         d = datetime.now()
 
-    for i in range(12):
+    for i in range(8):
         print( dga(d, args.config, i) )
             
