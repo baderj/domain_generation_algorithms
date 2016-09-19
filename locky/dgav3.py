@@ -161,7 +161,27 @@ config = {
     'seed': 9056,
     'tlds': ['ru', 'info', 'biz', 'click', 'su', 'work', 'pl', 'org', 'pw',
         'xyz']
-    }
+    },
+19: {
+    # md5:  
+    # sha256: 
+    # sample: 
+    # ref: https://nominum.com/locky-back/
+    'shift': 7,
+    'seed': 7773,
+    'tlds': ['ru', 'info', 'biz', 'click', 'su', 'work', 'pl', 'org', 'pw',
+        'xyz']
+    },
+20: {
+    # md5:  
+    # sha256: 
+    # sample: 
+    # ref: https://nominum.com/locky-back/
+    'shift': 7,
+    'seed': 7743,
+    'tlds': ['ru', 'info', 'biz', 'click', 'su', 'work', 'pl', 'org', 'pw',
+        'xyz']
+    },
 }
 
 def ror32(v, s):
