@@ -5,7 +5,8 @@ import time
 import string
 
 def rand(r):
-    return  (35317 - 1043968403*r) & 0x7FFFFFFF
+    seed = 0x4449
+    return  (seed - 1043968403*r) & 0x7FFFFFFF
 
 def dga(date):
     charset = string.ascii_lowercase + string.digits
