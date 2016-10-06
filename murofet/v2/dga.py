@@ -42,7 +42,10 @@ def dga(date, key):
         print(domain)
 
 if __name__=="__main__":
-    # known keys 0xD6d7A4BE, 0xDEADC2DE
+    # known keys:
+    # -k D6D7A4BE
+    # -k DEADC2DE
+    # -k D6D7A4B1
     parser = argparse.ArgumentParser()
     parser.add_argument("-d", "--date", help="date for which to generate domains")
     parser.add_argument("-k", "--key", help="key", default=None)
