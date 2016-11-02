@@ -28,6 +28,14 @@ def get_domains(seed, nr):
         yield domain
 
 if __name__=="__main__":
+    """ 
+        known seeds:
+            EF214BBF
+            28488EEA
+            4BFCBC6A
+            79159C10 
+            92F4BE35
+    """
     parser = argparse.ArgumentParser(description="generate Ramnit domains")
     parser.add_argument("seed", help="seed as hex")
     parser.add_argument("nr", help="nr of domains", type=int)
