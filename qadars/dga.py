@@ -29,7 +29,7 @@ if __name__ == "__main__":
     parser.add_argument("-d", "--date", 
             help="date for which to generate domains")
     parser.add_argument("-s", "--seed",
-            help="seed as hexstring", choices={"4449"},
+            help="seed as hexstring", choices={"89f5", "4449"},
             default="e08a")
     args = parser.parse_args()
 
