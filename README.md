@@ -36,5 +36,5 @@ gozi | Gozi | Ursnif, Snifula, Papras | [link](http://www.govcert.admin.ch/blog/
 qadars | Qadars | | [link](https://www.johannesbader.ch/2016/04/the-dga-of-qadars/)
 sisron | Sisron | TOMB, Win32/Agent.WRQ, Trojan.Scar |  [link](https://www.johannesbader.ch/2016/06/the-dga-of-sisron/)
 proslikefan | Proslikefan | | [link](https://johannesbader.ch/2016/06/proslikefan/) 
-vawtrak | Vawtrak | | 
+vawtrak | Vawtrak | | [link](http://www.threatgeek.com/2016/11/vawtrak-dga-round-2.html)
 unnamed_downloader | Unnamed Downloader | | 
