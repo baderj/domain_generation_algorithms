@@ -9,11 +9,14 @@ def rand(r, seed):
 
 def dga(date, seed):
     charset = string.ascii_lowercase + string.digits
-    tlds = [".net", ".org", ".top"]
+    if seed == 0xE1F2:
+        tlds = [".com", ".org", ".net"]
+    else:
+        tlds = [".net", ".org", ".top"]
     unix = int(time.mktime(date.timetuple()))
     b = 7*24*3600
     c = 4*24*3600
-    r = ((unix//b)*b + c)
+    r = unix - (unix-c) % b
     for i in range(200):
         domain = "" 
         for _ in range(12):
@@ -29,7 +32,7 @@ if __name__ == "__main__":
     parser.add_argument("-d", "--date", 
             help="date for which to generate domains")
     parser.add_argument("-s", "--seed",
-            help="seed as hexstring", choices={"89f5", "4449"},
+            help="seed as hexstring", choices={"89f5", "4449", "E1F2"},
             default="e08a")
     args = parser.parse_args()
 
