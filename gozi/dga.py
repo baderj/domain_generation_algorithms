@@ -7,7 +7,7 @@ seeds = {
         'luther': {'div': 4, 'tld': '.com', 'nr': 12},
         'rfc4343': {'div': 3, 'tld': '.com', 'nr': 10},
         'nasa': {'div': 5, 'tld': '.com', 'nr': 12},
-        'gpl': {'div': 3, 'tld': '.ru', 'nr': 10}
+        'gpl': {'div': 5, 'tld': '.ru', 'nr': 10}
         }
         
         
