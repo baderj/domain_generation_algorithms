@@ -3,8 +3,14 @@ from ctypes import c_uint
 import argparse
 
 
-wordlists = {'luther': 4, 'rfc4343': 3, 'nasa': 5}
-
+seeds = {
+        'luther': {'div': 4, 'tld': '.com', 'nr': 12},
+        'rfc4343': {'div': 3, 'tld': '.com', 'nr': 10},
+        'nasa': {'div': 5, 'tld': '.com', 'nr': 12},
+        'gpl': {'div': 3, 'tld': '.ru', 'nr': 10}
+        }
+        
+        
 class Rand:
 
     def __init__(self, seed):
@@ -21,7 +27,8 @@ def get_words(wordlist):
 def dga(date, wordlist):
     words = get_words(wordlist)
     diff = date - datetime.strptime("2015-01-01", "%Y-%m-%d")
-    days_passed = (diff.days // wordlists[wordlist])
+
+    days_passed = (diff.days // seeds[wordlist]['div'])
     flag = 1
     seed = (flag << 16) + days_passed - 306607824
     r = Rand(seed) 
@@ -39,7 +46,7 @@ def dga(date, wordlist):
                 l >>= 1
             if len(domain) + l <= 24:
                 domain += word[:l]
-        domain += '.com'
+        domain += seeds[wordlist]['tld']
         yield domain
 
 if __name__ == "__main__":
@@ -47,7 +54,7 @@ if __name__ == "__main__":
     parser.add_argument("-d", "--date", 
             help="date for which to generate domains")
     parser.add_argument("-w", "--wordlist", help="wordlist", 
-            choices=wordlists.keys(), default='luther')
+            choices=seeds.keys(), default='luther')
     args = parser.parse_args()
     if args.date:
         d = datetime.strptime(args.date, "%Y-%m-%d")
