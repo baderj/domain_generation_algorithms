@@ -3,7 +3,7 @@ from ctypes import c_uint
 import argparse
 
 
-wordlists = {'luther': 4, 'rfc4343': 3, 'nasa': 5}
+wordlists = {'luther': (4, '.com'), 'rfc4343': (3, '.com'), 'nasa': (5, '.com')}
 
 class Rand:
 
@@ -21,7 +21,7 @@ def get_words(wordlist):
 def dga(date, wordlist):
     words = get_words(wordlist)
     diff = date - datetime.strptime("2015-01-01", "%Y-%m-%d")
-    days_passed = (diff.days // wordlists[wordlist])
+    days_passed = (diff.days // wordlists[wordlist][0])
     flag = 1
     seed = (flag << 16) + days_passed - 306607824
     r = Rand(seed) 
@@ -39,7 +39,7 @@ def dga(date, wordlist):
                 l >>= 1
             if len(domain) + l <= 24:
                 domain += word[:l]
-        domain += '.com'
+        domain += wordlists[wordlist][1] 
         yield domain
 
 if __name__ == "__main__":
