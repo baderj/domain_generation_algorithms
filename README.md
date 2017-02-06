@@ -38,3 +38,4 @@ sisron | Sisron | TOMB, Win32/Agent.WRQ, Trojan.Scar |  [link](https://www.johan
 proslikefan | Proslikefan | | [link](https://johannesbader.ch/2016/06/proslikefan/) 
 vawtrak | Vawtrak | | [link](http://www.threatgeek.com/2016/11/vawtrak-dga-round-2.html)
 unnamed_downloader | Unnamed Downloader | | 
+chinad | Chinad | | [link](https://github.com/360netlab/DGA/issues/1)
