@@ -9,7 +9,7 @@ def rand(r, seed):
 
 def dga(date, seed):
     charset = string.ascii_lowercase + string.digits
-    if seed in [0xE1F2, 0xE1F1]:
+    if seed in [0xE1F2, 0xE1F1, 0xE1F5]:
         tlds = [".com", ".org", ".net"]
     else:
         tlds = [".net", ".org", ".top"]
@@ -33,7 +33,7 @@ if __name__ == "__main__":
             help="date for which to generate domains")
     parser.add_argument("-s", "--seed",
             help="seed as hexstring", choices={"89f5", "4449", "E1F1",
-                "E1F2", "E08A"},
+                "E1F2", "E08A", "E1F5"},
             default="e08a")
     args = parser.parse_args()
 
