@@ -28,17 +28,24 @@ def dga(date, seed):
         print(domain)
 
 if __name__ == "__main__":
+    seeds = {"89f5", "4449", "E1F1", "E1F2", "E08A", "E1F5"}
     parser = argparse.ArgumentParser()
     parser.add_argument("-d", "--date",
             help="date for which to generate domains")
     parser.add_argument("-s", "--seed",
-            help="seed as hexstring", choices={"89f5", "4449", "E1F1",
-                "E1F2", "E08A", "E1F5"},
+            help="seed as hexstring", choices=seeds,
             default="e08a")
+    parser.add_argument("-a", "--all-seeds", action="store_true",
+            help="use all seeds")
     args = parser.parse_args()
 
     if args.date:
         d = datetime.strptime(args.date, "%Y-%m-%d")
     else:
         d = datetime.now()
-    dga(d, int(args.seed,16))
+
+    if not args.all_seeds:
+        seeds = [args.seed]
+
+    for seed in seeds:
+        dga(d, int(seed, 16))
