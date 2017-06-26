@@ -18,7 +18,7 @@ def dga(date, seed):
     c = 4*24*3600
     r = unix - (unix-c) % b
     for i in range(200):
-        domain = "" 
+        domain = ""
         for _ in range(12):
             r = rand(r, seed)
             domain += charset[r % len(charset)]
@@ -29,7 +29,7 @@ def dga(date, seed):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("-d", "--date", 
+    parser.add_argument("-d", "--date",
             help="date for which to generate domains")
     parser.add_argument("-s", "--seed",
             help="seed as hexstring", choices={"89f5", "4449", "E1F1",
@@ -42,5 +42,3 @@ if __name__ == "__main__":
     else:
         d = datetime.now()
     dga(d, int(args.seed,16))
-            
-
