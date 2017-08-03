@@ -28,7 +28,7 @@ def dga(date, seed):
         print(domain)
 
 if __name__ == "__main__":
-    seeds = {"89f5", "4449", "E1F1", "E1F2", "E08A", "E1F5"}
+    seeds = ["89f5", "4449", "E1F1", "E1F2", "E08A", "E1F5"]
     parser = argparse.ArgumentParser()
     parser.add_argument("-d", "--date",
             help="date for which to generate domains")
