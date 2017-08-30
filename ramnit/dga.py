@@ -41,6 +41,7 @@ if __name__=="__main__":
             79159C10 
             92F4BE35
             4302C04A 10 -t "click bid eu"
+            52278648
     """
     parser = argparse.ArgumentParser(description="generate Ramnit domains")
     parser.add_argument("seed", help="seed as hex")

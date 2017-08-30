@@ -46,6 +46,7 @@ def get_next_domain(domain):
     return domain
 
 if __name__=="__main__":
+    """ example seed domain: 4ypv1eehphg3a.com """
     parser = argparse.ArgumentParser(description="DGA of Shiotob")
     parser.add_argument("domain", help="initial domain")
     args = parser.parse_args()
