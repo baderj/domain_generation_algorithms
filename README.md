@@ -40,3 +40,4 @@ vawtrak | Vawtrak | | [link](http://www.threatgeek.com/2016/11/vawtrak-dga-round
 unnamed_downloader | Unnamed Downloader | | 
 chinad | Chinad | | [link](https://github.com/360netlab/DGA/issues/1)
 tempedreve | Tempedreve | | [link](https://github.com/baderj/domain_generation_algorithms/tree/master/tempedreve/images)
+unknown_malware | ? | | 
