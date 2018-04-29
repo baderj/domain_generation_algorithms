@@ -20,6 +20,7 @@ tinba     | Tinba | TinyBanker, Zusy  | [link](http://johannesbader.ch/2015/04/n
 ranbyus/may   | Ranbyus Version 1 | | [link](http://johannesbader.ch/2015/05/the-dga-of-ranbyus/)
 ranbyus/september   | Ranbyus Version 2| | [link](http://johannesbader.ch/2015/09/ranbyuss-dga-revisited/)
 nymaim    | Nymaim || 
+nymaim2    | Nymaim v2 || [link](https://johannesbader.ch/2018/04/the-new-domain-generation-algorithm-of-nymaim/) 
 murofet/v1 | Murofet Variant 1 | LICAT | [link](https://johannesbader.ch/2015/09/three-variants-of-murofets-dga/)
 murofet/v2 | Murofet Variant 2 | LICAT | [link](https://johannesbader.ch/2015/09/three-variants-of-murofets-dga/)
 murofet/v3 | Murofet Variant 3 | LICAT | [link](https://johannesbader.ch/2015/09/three-variants-of-murofets-dga/)
