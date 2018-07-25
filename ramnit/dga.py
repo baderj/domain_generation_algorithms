@@ -7,7 +7,7 @@ class RandInt:
 
     def rand_int_modulus(self, modulus):
         ix = self.value
-        ix = 16807*(ix % 127773) - 2836*(ix / 127773) & 0xFFFFFFFF        
+        ix = 16807*(ix % 127773) - 2836*(ix // 127773) & 0xFFFFFFFF        
         self.value = ix 
         return ix % modulus 
 
@@ -34,7 +34,7 @@ def get_domains(seed, nr, tlds):
 
 if __name__=="__main__":
     """ 
-        known seeds:
+        example seeds:
             EF214BBF
             28488EEA
             4BFCBC6A
@@ -42,6 +42,7 @@ if __name__=="__main__":
             92F4BE35
             4302C04A 10 -t "click bid eu"
             52278648
+            9753029A 100 -t .eu
     """
     parser = argparse.ArgumentParser(description="generate Ramnit domains")
     parser.add_argument("seed", help="seed as hex")
