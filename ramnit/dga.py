@@ -35,6 +35,8 @@ def get_domains(seed, nr, tlds):
 if __name__=="__main__":
     """ 
         example seeds:
+            E7392D18
+            C129388E
             E706B455
             DC485593
             EF214BBF
