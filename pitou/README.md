@@ -1,0 +1,1 @@
+The DGA of Pitou has a bug, which cause an undefined memory access. For some domains, i.e., those whose second level domain has length 9, this will lead to unpredictable domains. This DGA script generates all possible candidates and visually groups them. Domains with length 8 are not affected, preferably use them for sinkholing and detection.
