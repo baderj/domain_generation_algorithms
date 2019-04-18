@@ -44,3 +44,4 @@ chinad | Chinad | | [link](https://github.com/360netlab/DGA/issues/1)
 tempedreve | Tempedreve | | [link](https://github.com/baderj/domain_generation_algorithms/tree/master/tempedreve/images)
 unknown_malware | ? | | 
 pitou | Pitou | | [link](https://www.f-secure.com/documents/996508/1030745/pitou_whitepaper.pdf) 
+mydoom | MyDoom | Novarg, Mimail.R, Shimgapi| 
