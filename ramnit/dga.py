@@ -51,6 +51,9 @@ if __name__=="__main__":
             A6EAB21A 500
             46CF1B28 500
             1CCEC41C
+            0C5787AE2
+            0FCFFD9E9
+            75EA95C2
     """
     parser = argparse.ArgumentParser(description="generate Ramnit domains")
     parser.add_argument("seed", help="seed as hex")
