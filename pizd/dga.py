@@ -424,4 +424,5 @@ if __name__ == '__main__':
 
     d = datetime.strptime(args.date, "%Y-%m-%d") if args.date else datetime.now()
     d -= datetime.utcfromtimestamp(0)
-    print pizd(int(d.total_seconds()*1000),args.nr)
+    for domain in pizd(int(d.total_seconds()*1000),args.nr):
+        print(domain)
