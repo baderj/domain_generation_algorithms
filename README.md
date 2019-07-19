@@ -3,7 +3,7 @@ Johannes Bacher's reversing efforts
 
 ## Overview
 
-Subfolder | Malware Family | Alias | Write-Up
+Subfolder | Malware Family | Alias / Notes | Write-Up
 --------- | -------------- | ----- | ----------
 pizd      |   ??           |       | [link] (https://blog.avast.com/2013/06/18/your-facebook-connection-is-now-secured/)
 newgoz    | newGOZ         | Gameover Zeus, Peer-to-Peer Zeus |   [link](https://johannesbader.ch/2014/12/the-dga-of-newgoz/)
@@ -43,5 +43,6 @@ unnamed_downloader | Unnamed Downloader | |
 chinad | Chinad | | [link](https://github.com/360netlab/DGA/issues/1)
 tempedreve | Tempedreve | | [link](https://github.com/baderj/domain_generation_algorithms/tree/master/tempedreve/images)
 unknown_malware | ? | | 
-pitou | Pitou | | [link](https://www.f-secure.com/documents/996508/1030745/pitou_whitepaper.pdf) 
+pitou | Pitou | | [link](https://johannesbader.ch/2019/07/the-dga-of-pitou/)  |
 mydoom | MyDoom | Novarg, Mimail.R, Shimgapi| 
+reconyc | Reconyc | **has unpredictable seeding**  |  
