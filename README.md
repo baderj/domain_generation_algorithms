@@ -3,7 +3,7 @@ Domain Generation Algorithms (DGAs) of Malware reimplemented in Python.
 
 ## Overview
 
-<details><summary>banjori (Banjori aka MultiBanker 2, BankPatch(er))</summary>
+<details><summary>banjori (aka MultiBanker 2, BankPatch(er))</summary>
 
 ### Links
 - [http://johannesbader.ch/2015/02/the-dga-of-banjori/](http://johannesbader.ch/2015/02/the-dga-of-banjori/)
