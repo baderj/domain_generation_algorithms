@@ -1,5 +1,5 @@
 # Domain Generation Algorithms 
-Johannes Bacher's reversing efforts 
+Domain Generation Algorithms (DGAs) of Malware reimplemented in Python.
 
 ## Overview
 
@@ -22,7 +22,7 @@ Johannes Bacher's reversing efforts
 </details>
 
 
-<details><summary>chinad (Chinad)</summary>
+<details><summary>chinad</summary>
 
 ### Links
 - [https://github.com/360netlab/DGA/issues/1](https://github.com/360netlab/DGA/issues/1)
@@ -41,7 +41,7 @@ Johannes Bacher's reversing efforts
 </details>
 
 
-<details><summary>corebot (CoreBot)</summary>
+<details><summary>corebot</summary>
 
 ### Links
 - [https://johannesbader.ch/2015/09/the-dga-of-corebot/](https://johannesbader.ch/2015/09/the-dga-of-corebot/)
@@ -60,7 +60,7 @@ Johannes Bacher's reversing efforts
 </details>
 
 
-<details><summary>dircrypt (DirCrypt)</summary>
+<details><summary>dircrypt</summary>
 
 ### Links
 - [http://johannesbader.ch/2015/03/the-dga-of-dircrypt/](http://johannesbader.ch/2015/03/the-dga-of-dircrypt/)
@@ -79,7 +79,7 @@ Johannes Bacher's reversing efforts
 </details>
 
 
-<details><summary>dnschanger (DNSChanger aka Alureon)</summary>
+<details><summary>dnschanger (aka Alureon)</summary>
 
 ### Links
 - [https://johannesbader.ch/2016/01/the-dga-in-alureon-dnschanger/](https://johannesbader.ch/2016/01/the-dga-in-alureon-dnschanger/)
@@ -93,7 +93,7 @@ Johannes Bacher's reversing efforts
 </details>
 
 
-<details><summary>fobber (Fobber aka Tinba v3)</summary>
+<details><summary>fobber (aka Tinba v3)</summary>
 
 ### Example Domains
 - vhkintjtksyxgjrzz.net
@@ -109,7 +109,7 @@ Johannes Bacher's reversing efforts
 </details>
 
 
-<details><summary>gozi (Gozi aka Ursnif, Snifula, Papras)</summary>
+<details><summary>gozi (aka Ursnif, Snifula, Papras)</summary>
 
 ### Links
 - [http://www.govcert.admin.ch/blog/18/gozi-isfb-when-a-bug-really-is-a-feature](http://www.govcert.admin.ch/blog/18/gozi-isfb-when-a-bug-really-is-a-feature)
@@ -128,7 +128,7 @@ Johannes Bacher's reversing efforts
 </details>
 
 
-<details><summary>kraken/v1 (Kraken Version 1 aka Bobax, Oderoor)</summary>
+<details><summary>kraken/v1 (aka Bobax, Oderoor)</summary>
 
 ### Links
 - [https://johannesbader.ch/2015/12/krakens-two-domain-generation-algorithms/](https://johannesbader.ch/2015/12/krakens-two-domain-generation-algorithms/)
@@ -147,7 +147,7 @@ Johannes Bacher's reversing efforts
 </details>
 
 
-<details><summary>kraken/v2 (Kraken Version 2 aka Bobax, Oderoor)</summary>
+<details><summary>kraken/v2 (aka Bobax, Oderoor)</summary>
 
 ### Links
 - [https://johannesbader.ch/2015/12/krakens-two-domain-generation-algorithms/](https://johannesbader.ch/2015/12/krakens-two-domain-generation-algorithms/)
@@ -166,7 +166,7 @@ Johannes Bacher's reversing efforts
 </details>
 
 
-<details><summary>locky (Locky)</summary>
+<details><summary>locky</summary>
 
 ### Links
 - [https://blogs.forcepoint.com/security-labs/lockys-new-dga-seeding-new-domains](https://blogs.forcepoint.com/security-labs/lockys-new-dga-seeding-new-domains)
@@ -183,7 +183,7 @@ Johannes Bacher's reversing efforts
 </details>
 
 
-<details><summary>murofet/v1 (Murofet Variant 1 aka LICAT)</summary>
+<details><summary>murofet/v1 (aka LICAT)</summary>
 
 ### Links
 - [https://johannesbader.ch/2015/09/three-variants-of-murofets-dga/](https://johannesbader.ch/2015/09/three-variants-of-murofets-dga/)
@@ -202,7 +202,7 @@ Johannes Bacher's reversing efforts
 </details>
 
 
-<details><summary>murofet/v2 (Murofet Variant 2 aka LICAT)</summary>
+<details><summary>murofet/v2 (aka LICAT)</summary>
 
 ### Links
 - [https://johannesbader.ch/2015/09/three-variants-of-murofets-dga/](https://johannesbader.ch/2015/09/three-variants-of-murofets-dga/)
@@ -221,7 +221,7 @@ Johannes Bacher's reversing efforts
 </details>
 
 
-<details><summary>murofet/v3 (Murofet Variant 3 aka LICAT)</summary>
+<details><summary>murofet/v3 (aka LICAT)</summary>
 
 ### Links
 - [https://johannesbader.ch/2015/09/three-variants-of-murofets-dga/](https://johannesbader.ch/2015/09/three-variants-of-murofets-dga/)
@@ -240,7 +240,7 @@ Johannes Bacher's reversing efforts
 </details>
 
 
-<details><summary>mydoom (MyDoom aka Novarg, Mimail.R, Shimgapi)</summary>
+<details><summary>mydoom (aka Novarg, Mimail.R, Shimgapi)</summary>
 
 ### Example Domains
 - qehspqnmrn.info
@@ -256,7 +256,7 @@ Johannes Bacher's reversing efforts
 </details>
 
 
-<details><summary>necurs (Necurs)</summary>
+<details><summary>necurs</summary>
 
 ### Links
 - [http://johannesbader.ch/2015/02/the-dgas-of-necurs/](http://johannesbader.ch/2015/02/the-dgas-of-necurs/)
@@ -275,7 +275,7 @@ Johannes Bacher's reversing efforts
 </details>
 
 
-<details><summary>newgoz (newGOZ aka Gameover Zeus, Peer-to-Peer Zeus)</summary>
+<details><summary>newgoz (aka Gameover Zeus, Peer-to-Peer Zeus)</summary>
 
 ### Links
 - [https://johannesbader.ch/2014/12/the-dga-of-newgoz/](https://johannesbader.ch/2014/12/the-dga-of-newgoz/)
@@ -294,7 +294,7 @@ Johannes Bacher's reversing efforts
 </details>
 
 
-<details><summary>nymaim (Nymaim)</summary>
+<details><summary>nymaim</summary>
 
 ### Example Domains
 - oftbpec.com
@@ -310,7 +310,7 @@ Johannes Bacher's reversing efforts
 </details>
 
 
-<details><summary>nymaim2 (Nymaim v2)</summary>
+<details><summary>nymaim2</summary>
 
 ### Links
 - [https://johannesbader.ch/2018/04/the-new-domain-generation-algorithm-of-nymaim/](https://johannesbader.ch/2018/04/the-new-domain-generation-algorithm-of-nymaim/)
@@ -329,7 +329,7 @@ Johannes Bacher's reversing efforts
 </details>
 
 
-<details><summary>padcrypt (Padcrypt)</summary>
+<details><summary>padcrypt</summary>
 
 ### Links
 - [http://johannesbader.ch/2016/03/the-dga-of-padcrypt/](http://johannesbader.ch/2016/03/the-dga-of-padcrypt/)
@@ -348,7 +348,7 @@ Johannes Bacher's reversing efforts
 </details>
 
 
-<details><summary>pitou (Pitou)</summary>
+<details><summary>pitou</summary>
 
 ### Links
 - [https://johannesbader.ch/2019/07/the-dga-of-pitou/](https://johannesbader.ch/2019/07/the-dga-of-pitou/)
@@ -367,7 +367,7 @@ Johannes Bacher's reversing efforts
 </details>
 
 
-<details><summary>pizd (??)</summary>
+<details><summary>pizd</summary>
 
 ### Links
 - [https://blog.avast.com/2013/06/18/your-facebook-connection-is-now-secured/](https://blog.avast.com/2013/06/18/your-facebook-connection-is-now-secured/)
@@ -386,7 +386,7 @@ Johannes Bacher's reversing efforts
 </details>
 
 
-<details><summary>proslikefan (Proslikefan)</summary>
+<details><summary>proslikefan</summary>
 
 ### Links
 - [https://johannesbader.ch/2016/06/proslikefan/](https://johannesbader.ch/2016/06/proslikefan/)
@@ -405,7 +405,7 @@ Johannes Bacher's reversing efforts
 </details>
 
 
-<details><summary>pykspa/improved (Improved Pykspa)</summary>
+<details><summary>pykspa/improved</summary>
 
 ### Links
 - [http://johannesbader.ch/2015/03/the-dga-of-pykspa/](http://johannesbader.ch/2015/03/the-dga-of-pykspa/)
@@ -424,7 +424,7 @@ Johannes Bacher's reversing efforts
 </details>
 
 
-<details><summary>pykspa/precursor (Precursor of Pykspa)</summary>
+<details><summary>pykspa/precursor</summary>
 
 ### Links
 - [http://johannesbader.ch/2015/07/pykspas-inferior-dga-version/](http://johannesbader.ch/2015/07/pykspas-inferior-dga-version/)
@@ -443,7 +443,7 @@ Johannes Bacher's reversing efforts
 </details>
 
 
-<details><summary>qadars (Qadars)</summary>
+<details><summary>qadars</summary>
 
 ### Links
 - [https://www.johannesbader.ch/2016/04/the-dga-of-qadars/](https://www.johannesbader.ch/2016/04/the-dga-of-qadars/)
@@ -462,7 +462,7 @@ Johannes Bacher's reversing efforts
 </details>
 
 
-<details><summary>qakbot (Qakbot)</summary>
+<details><summary>qakbot</summary>
 
 ### Links
 - [https://johannesbader.ch/2016/02/the-dga-of-qakbot/](https://johannesbader.ch/2016/02/the-dga-of-qakbot/)
@@ -481,7 +481,7 @@ Johannes Bacher's reversing efforts
 </details>
 
 
-<details><summary>ramnit (Ramnit)</summary>
+<details><summary>ramnit</summary>
 
 ### Links
 - [https://johannesbader.ch/2014/12/the-dga-of-ramnit/](https://johannesbader.ch/2014/12/the-dga-of-ramnit/)
@@ -500,7 +500,7 @@ Johannes Bacher's reversing efforts
 </details>
 
 
-<details><summary>ranbyus/may (Ranbyus Version 1)</summary>
+<details><summary>ranbyus/may</summary>
 
 ### Links
 - [http://johannesbader.ch/2015/05/the-dga-of-ranbyus/](http://johannesbader.ch/2015/05/the-dga-of-ranbyus/)
@@ -519,7 +519,7 @@ Johannes Bacher's reversing efforts
 </details>
 
 
-<details><summary>ranbyus/september (Ranbyus Version 2)</summary>
+<details><summary>ranbyus/september</summary>
 
 ### Links
 - [http://johannesbader.ch/2015/09/ranbyuss-dga-revisited/](http://johannesbader.ch/2015/09/ranbyuss-dga-revisited/)
@@ -538,7 +538,9 @@ Johannes Bacher's reversing efforts
 </details>
 
 
-<details><summary>reconyc (Reconyc aka **has unpredictable seeding**)</summary>
+<details><summary>reconyc</summary>
+
+**This DGA has unpredictable seeding**, i.e., it uses ``GetTickCount`` as the seed. I still list the DGA as it might be useful for testing or training DGA detection algorithms.
 
 ### Example Domains
 - E5zHail0Mw.com
@@ -554,7 +556,7 @@ Johannes Bacher's reversing efforts
 </details>
 
 
-<details><summary>shiotob (Shiotob aka Urlzone, Bebloh)</summary>
+<details><summary>shiotob (aka Urlzone, Bebloh)</summary>
 
 ### Links
 - [https://johannesbader.ch/2015/01/the-dga-of-shiotob/](https://johannesbader.ch/2015/01/the-dga-of-shiotob/)
@@ -573,7 +575,7 @@ Johannes Bacher's reversing efforts
 </details>
 
 
-<details><summary>simda (Simda aka Shiz)</summary>
+<details><summary>simda (aka Shiz)</summary>
 
 ### Links
 - [http://johannesbader.ch/2015/03/the-dga-of-simda-shiz/](http://johannesbader.ch/2015/03/the-dga-of-simda-shiz/)
@@ -592,7 +594,7 @@ Johannes Bacher's reversing efforts
 </details>
 
 
-<details><summary>sisron (Sisron aka TOMB, Win32/Agent.WRQ, Trojan.Scar)</summary>
+<details><summary>sisron (aka TOMB, Win32/Agent.WRQ, Trojan.Scar)</summary>
 
 ### Links
 - [https://www.johannesbader.ch/2016/06/the-dga-of-sisron/](https://www.johannesbader.ch/2016/06/the-dga-of-sisron/)
@@ -611,7 +613,7 @@ Johannes Bacher's reversing efforts
 </details>
 
 
-<details><summary>suppobox (SuppoBox)</summary>
+<details><summary>suppobox</summary>
 
 ### Links
 - [http://www.rsaconference.com/writable/presentations/file_upload/br-r01-end-to-end-analysis-of-a-domain-generating-algorithm-malware-family.pdf](http://www.rsaconference.com/writable/presentations/file_upload/br-r01-end-to-end-analysis-of-a-domain-generating-algorithm-malware-family.pdf)
@@ -630,7 +632,7 @@ Johannes Bacher's reversing efforts
 </details>
 
 
-<details><summary>symmi (Symmni)</summary>
+<details><summary>symmi</summary>
 
 ### Links
 - [http://johannesbader.ch/2015/01/the-dga-of-symmi/](http://johannesbader.ch/2015/01/the-dga-of-symmi/)
@@ -649,7 +651,7 @@ Johannes Bacher's reversing efforts
 </details>
 
 
-<details><summary>tempedreve (Tempedreve)</summary>
+<details><summary>tempedreve</summary>
 
 ### Links
 - [https://github.com/baderj/domain_generation_algorithms/tree/master/tempedreve/images](https://github.com/baderj/domain_generation_algorithms/tree/master/tempedreve/images)
@@ -668,7 +670,7 @@ Johannes Bacher's reversing efforts
 </details>
 
 
-<details><summary>tinba (Tinba aka TinyBanker, Zusy)</summary>
+<details><summary>tinba (aka TinyBanker, Zusy)</summary>
 
 ### Links
 - [http://johannesbader.ch/2015/04/new-top-level-domains-for-tinbas-dga/](http://johannesbader.ch/2015/04/new-top-level-domains-for-tinbas-dga/)
@@ -687,7 +689,7 @@ Johannes Bacher's reversing efforts
 </details>
 
 
-<details><summary>unknown_malware (?)</summary>
+<details><summary>unknown_malware</summary>
 
 ### Example Domains
 - albdfhln.com
@@ -703,7 +705,7 @@ Johannes Bacher's reversing efforts
 </details>
 
 
-<details><summary>unnamed_downloader (Unnamed Downloader)</summary>
+<details><summary>unnamed_downloader</summary>
 
 ### Example Domains
 - ddknt.github.io
@@ -719,7 +721,7 @@ Johannes Bacher's reversing efforts
 </details>
 
 
-<details><summary>unnamed_javascript_dga (Unnamed)</summary>
+<details><summary>unnamed_javascript_dga</summary>
 
 ### Links
 - [https://johannesbader.ch/2015/11/a-javascript-based-dga/](https://johannesbader.ch/2015/11/a-javascript-based-dga/)
@@ -738,7 +740,7 @@ Johannes Bacher's reversing efforts
 </details>
 
 
-<details><summary>vawtrak (Vawtrak)</summary>
+<details><summary>vawtrak</summary>
 
 ### Links
 - [http://www.threatgeek.com/2016/11/vawtrak-dga-round-2.html](http://www.threatgeek.com/2016/11/vawtrak-dga-round-2.html)
