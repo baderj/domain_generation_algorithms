@@ -44,7 +44,7 @@ def dga(date, magic, number):
         yield domain
 
 if __name__=="__main__":
-    parser = argparse.ArgumentParser(description="DGA of Pitou")
+    parser = argparse.ArgumentParser(description="DGA of MyDoom")
     parser.add_argument("-d", "--date", 
         help="date for which to generate domains, e.g., 2019-04-09")
 
