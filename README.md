@@ -485,6 +485,8 @@ Domain Generation Algorithms (DGAs) of Malware reimplemented in Python.
 ### Links
 - [https://www.kyberturvallisuuskeskus.fi/en/news/qsnatch-malware-designed-qnap-nas-devices](https://www.kyberturvallisuuskeskus.fi/en/news/qsnatch-malware-designed-qnap-nas-devices)
 
+- [https://johannesbader.ch/blog/the-dga-of-qsnatch/](https://johannesbader.ch/blog/the-dga-of-qsnatch/)
+
 ### Example Domains
 - t2q2r.cf
 - gc9nz.tk
