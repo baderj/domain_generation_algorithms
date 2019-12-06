@@ -404,6 +404,21 @@ Domain Generation Algorithms (DGAs) of Malware reimplemented in Python.
 - smutloo.name
 </details>
 
+<details><summary>pushdo</summary>
+
+### Example Domains
+- weafokuggeir.kz
+- sictemuborug.kz
+- cirpicficj.kz
+- geijanmap.kz
+- fuxhuxsabi.kz
+- siclisozdokq.kz
+- sozcoqnafrex.kz
+- qeobifups.kz
+- cokoqdeah.kz
+- latqafbuxwic.kz
+</details>
+
 
 <details><summary>pykspa/improved</summary>
 
