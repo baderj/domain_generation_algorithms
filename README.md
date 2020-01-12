@@ -404,6 +404,21 @@ Domain Generation Algorithms (DGAs) of Malware reimplemented in Python.
 - smutloo.name
 </details>
 
+<details><summary>pushdo</summary>
+
+### Example Domains
+- weafokuggeir.kz
+- sictemuborug.kz
+- cirpicficj.kz
+- geijanmap.kz
+- fuxhuxsabi.kz
+- siclisozdokq.kz
+- sozcoqnafrex.kz
+- qeobifups.kz
+- cokoqdeah.kz
+- latqafbuxwic.kz
+</details>
+
 
 <details><summary>pykspa/improved</summary>
 
@@ -484,6 +499,8 @@ Domain Generation Algorithms (DGAs) of Malware reimplemented in Python.
 
 ### Links
 - [https://www.kyberturvallisuuskeskus.fi/en/news/qsnatch-malware-designed-qnap-nas-devices](https://www.kyberturvallisuuskeskus.fi/en/news/qsnatch-malware-designed-qnap-nas-devices)
+
+- [https://johannesbader.ch/blog/the-dga-of-qsnatch/](https://johannesbader.ch/blog/the-dga-of-qsnatch/)
 
 ### Example Domains
 - t2q2r.cf
