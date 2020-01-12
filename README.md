@@ -182,6 +182,20 @@ Domain Generation Algorithms (DGAs) of Malware reimplemented in Python.
 - cscffbwbhs.uk
 </details>
 
+<details><summary>monerodownloader</summary>
+
+### Example Domains
+- 31b4bd31fg1x2.org
+- 31b4bd31fg1x2.tickets
+- 31b4bd31fg1x2.blackfriday
+- 31b4bd31fg1x2.hosting
+- 31b4bd31fg1x2.feedback
+- 3f8c8079fd4c5.org
+- 3f8c8079fd4c5.tickets
+- 3f8c8079fd4c5.blackfriday
+- 3f8c8079fd4c5.hosting
+- 3f8c8079fd4c5.feedback
+</details> 
 
 <details><summary>murofet/v1 (aka LICAT)</summary>
 
