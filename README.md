@@ -808,3 +808,18 @@ Domain Generation Algorithms (DGAs) of Malware reimplemented in Python.
 </details>
 
 
+<details><summary>zloader</summary>
+
+
+### Example Domains
+- gdurfdsywubjaaqcqhrh.com
+- vudktykcecigekhtwwqn.com
+- jcaofaekffeojktmpdax.com
+- iiphrhkculpnubvvxnbh.com
+- bjdbpgbjdyredhfyvpie.com
+- wramitvqeojecedajxoj.com
+- ohyjybhogoeoabjqvpie.com
+- fscqtelyeogmxudotlao.com
+- nsdtxvnwtxjwphbuqffe.com
+- bohchavtvhbejwcmekvo.com
+</details>
