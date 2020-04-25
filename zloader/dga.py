@@ -67,8 +67,12 @@ def dga(seed, nr_of_domains):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("-d", "--date", help="date when domains are generated")
-    parser.add_argument(
-        "-r", "--rc4", help="rc4 key from config, for example q23Cud3xsNf3 or 41997b4a729e1a0175208305170752dd", default="q23Cud3xsNf3")
+    parser.add_argument("-r", "--rc4", 
+            help="rc4 key from config",
+            choices=["q23Cud3xsNf3","41997b4a729e1a0175208305170752dd", "kZieCw23gffpe43Sd"],
+            default="q23Cud3xsNf3")
+
+
     args = parser.parse_args()
     if args.date:
         d = datetime.strptime(args.date, "%Y-%m-%d")
