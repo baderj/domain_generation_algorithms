@@ -108,6 +108,21 @@ Domain Generation Algorithms (DGAs) of Malware reimplemented in Python.
 - pdwfuxgnahmgsxhit.net
 </details>
 
+<details><summary>fosniw</summary>
+
+### Example Domains
+- app2.winsoft0.com
+- app2.winsoft1.com
+- app2.winsoft2.com
+- app2.winsoft3.com
+- app2.winsoft4.com
+- app2.winsoft5.com
+- app2.winsoft6.com
+- app2.winsoft7.com
+- app2.winsoft8.com
+- app2.winsoft9.com
+</details>
+
 
 <details><summary>gozi (aka Ursnif, Snifula, Papras)</summary>
 
@@ -809,6 +824,9 @@ Domain Generation Algorithms (DGAs) of Malware reimplemented in Python.
 
 
 <details><summary>zloader</summary>
+
+### Links
+- [https://johannesbader.ch/blog/the-dga-of-zloader/](https://johannesbader.ch/blog/the-dga-of-zloader/)
 
 
 ### Example Domains
