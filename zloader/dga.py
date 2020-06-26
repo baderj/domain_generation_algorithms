@@ -69,7 +69,7 @@ if __name__ == "__main__":
     parser.add_argument("-d", "--date", help="date when domains are generated")
     parser.add_argument("-r", "--rc4", 
             help="rc4 key from config",
-            choices=["q23Cud3xsNf3","41997b4a729e1a0175208305170752dd", "kZieCw23gffpe43Sd"],
+            choices=["q23Cud3xsNf3","41997b4a729e1a0175208305170752dd", "kZieCw23gffpe43Sd",  "Ts72YjsjO5TghE6m"],
             default="q23Cud3xsNf3")
 
 
