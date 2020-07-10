@@ -21,6 +21,24 @@ Domain Generation Algorithms (DGAs) of Malware reimplemented in Python.
 - zxahestnessbiophysicalohax.com
 </details>
 
+<details><summary>bazarbackdoor (aka BazarLoader Team9Backdoor))</summary>
+
+### Links
+- [http://johannesbader.ch/2020/07/the-dga-of-bazarbackdoor/](http://johannesbader.ch/2020/07/the-dga-of-bazarbackdoor/)
+
+### Example Domains
+- adegjkaiggjm.bazar
+- eehhjmejjhjo.bazar
+- dehiildjjiin.bazar
+- ceeiklcjgikn.bazar
+- dceikkdhgikm.bazar
+- bfehjmbkghjo.bazar
+- adegjmaiggjo.bazar
+- dchiikdhjiim.bazar
+- efehikekghim.bazar
+- bdhhjkbijhjm.bazar
+</details>
+
 
 <details><summary>chinad</summary>
 
@@ -196,6 +214,7 @@ Domain Generation Algorithms (DGAs) of Malware reimplemented in Python.
 - suhpqiumpjsv.ru
 - cscffbwbhs.uk
 </details>
+
 
 <details><summary>monerodownloader</summary>
 
