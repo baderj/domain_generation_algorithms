@@ -55,7 +55,7 @@ if __name__ == "__main__":
     parser.add_argument("-d", "--date", 
             help="date for which to generate domains")
     parser.add_argument("-w", "--wordlist", help="wordlist", 
-            choices=seeds.keys(), default='luther')
+            choices=list(seeds.keys()), default='luther')
     args = parser.parse_args()
     if args.date:
         d = datetime.strptime(args.date, "%Y-%m-%d")

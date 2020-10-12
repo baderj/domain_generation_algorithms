@@ -20,13 +20,13 @@ def dga(date):
             seed_str += chr((seed[i]))
 
         m = hashlib.md5()
-        m.update(seed_str)
+        m.update(seed_str.encode('latin1'))
         md5 = m.digest()
 
         domain = ""
         for m in md5:
-            d = (ord(m) & 0x1F) + ord('a')
-            c = (ord(m) >> 3) + ord('a')
+            d = (m & 0x1F) + ord('a')
+            c = (m >> 3) + ord('a')
             if d != c:
                 if d <= ord('z'):
                     domain += chr(d)
