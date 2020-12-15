@@ -164,5 +164,5 @@ if __name__ == "__main__":
     if args.date:
         d = datetime.strptime(args.date, "%Y-%m-%d")
     else:
-        d = datetime.now()
+        d = datetime.utcnow()
     generate_domains(d, args.nr, args.set_nr)
