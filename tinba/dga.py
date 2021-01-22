@@ -1,4 +1,4 @@
-from __future__ import print_function
+
 
 
 def dga(seed, domain, tlds, num_domains):

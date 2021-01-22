@@ -17,7 +17,7 @@ def dga(date):
 
         seed_str = ''.join([chr(s) for s in seed])
 
-        md5 = hashlib.md5(seed_str).digest()
+        md5 = hashlib.md5(seed_str.encode('latin1')).digest()
 
         domain = ""
         for m in md5:
@@ -26,7 +26,6 @@ def dga(date):
                 b:   'q' ... 'z' . '1' ... '6' 
                 c:   '0' ... '9' IFF b is a number, else discard
             """
-            m = ord(m)
             a = (m & 0xF) + ord('a') 
             b = (m >> 4) + ord('q') 
             if b > ord('z'): 
