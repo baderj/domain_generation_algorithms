@@ -3,8 +3,6 @@ from ctypes import c_uint
 import argparse
 
 
-wordlists = {'luther': (4, '.com'), 'rfc4343': (3, '.com'), 'nasa': (5, '.com')}
-
 seeds = {
         'luther': {'div': 4, 'tld': '.com', 'nr': 12},
         'rfc4343': {'div': 3, 'tld': '.com', 'nr': 10},
