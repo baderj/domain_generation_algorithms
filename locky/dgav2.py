@@ -116,7 +116,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("-d", "--date", 
             help="date for which to generate domains")
-    parser.add_argument("-c", "--config", choices=range(1,8),
+    parser.add_argument("-c", "--config", choices=list(range(1,8)),
             help="config nr", type=int, default=1)
     args = parser.parse_args()
 

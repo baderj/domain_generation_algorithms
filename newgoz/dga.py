@@ -12,11 +12,11 @@ def get_seed(seq_nr, date):
     m = hashlib.md5()
     m.update(seq_nr)
     m.update(year)
-    m.update(key)
+    m.update(key.encode('latin1'))
     m.update(month)
-    m.update(key)
+    m.update(key.encode('latin1'))
     m.update(day)
-    m.update(key)
+    m.update(key.encode('latin1'))
     return m.hexdigest()
 
 def create_domain(seq_nr, date):
@@ -24,7 +24,7 @@ def create_domain(seq_nr, date):
         part = [] 
         for i in range(nr-1):
             edx = seed % 36
-            seed /= 36
+            seed //= 36
             if edx > 9:
                 char = chr(ord('a') + (edx-10))
             else:

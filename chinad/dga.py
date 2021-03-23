@@ -17,7 +17,8 @@ def dga(date):
                 chr(date.day),
                 chr(nr)) + 12*"\x00" 
 
-        h = hashlib.sha1(data).digest()
+        h = hashlib.sha1(data.encode('latin1')).digest()
+        h = ''.join(map(chr, h))
         h_le = []
         for i in range(5):
             for j in range(4):

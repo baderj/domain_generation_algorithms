@@ -108,7 +108,7 @@ def generate_domains(date, config):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="gozi dga")
-    parser.add_argument("-c", "--config", default="kz_v1", choices=configs.keys())
+    parser.add_argument("-c", "--config", default="kz_v1", choices=list(configs.keys()))
     parser.add_argument("-d", "--date", 
             help="date for which to generate domains")
     args = parser.parse_args()

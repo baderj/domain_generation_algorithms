@@ -2,14 +2,14 @@ import argparse
 
 class RandInt:
 
-    def __init__(self, seed): 
+    def __init__(self, seed):
         self.seed = seed
 
     def rand_int_modulus(self, modulus):
-        ix = self.seed                
-        ix = 16807*(ix % 127773) - 2836*(ix / 127773) & 0xFFFFFFFF        
+        ix = self.seed
+        ix = 16807*(ix % 127773) - 2836*(ix // 127773) & 0xFFFFFFFF
         self.seed = ix
-        return ix % modulus 
+        return ix % modulus
 
 def get_domains(seed, nr):
     r = RandInt(seed)
