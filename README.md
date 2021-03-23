@@ -26,6 +26,7 @@ Domain Generation Algorithms (DGAs) of Malware reimplemented in Python.
 ### Links
 - [https://johannesbader.ch/blog/the-dga-of-bazarbackdoor/](https://johannesbader.ch/blog/the-dga-of-bazarbackdoor/)
 - [https://johannesbader.ch/blog/the-buggy-dga-of-bazarbackdoor/](https://johannesbader.ch/blog/the-buggy-dga-of-bazarbackdoor/)
+- [https://johannesbader.ch/blog/the-buggy-dga-of-bazarbackdoor/](https://johannesbader.ch/blog/yet-another-bazarloader-dga/)
 
 ### Example Domains
 Real DGA:
