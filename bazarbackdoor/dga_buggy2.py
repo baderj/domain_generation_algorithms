@@ -10,7 +10,7 @@ pool = (
     "asxoapuxqaoh"
 )
 
-pool +=(361*2 - len(pool))*"?"
+pool +=(10*19*2 - len(pool))*"?"
 
 
 
