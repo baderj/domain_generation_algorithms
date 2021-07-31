@@ -5,10 +5,24 @@ from collections import namedtuple
 
 Param = namedtuple('Param', 'mul mod idx')
 pool = (
-    "yzewevmeywreomviekwyavygontowaerudsoyrexvuamtyseweesuvizpituiqow"
-    "uzoretzemuultiazicukoqiwolxuykosupwiymitisneroxeyxanlekyixxirasi"
-    "asxoapuxqaoh"
+    "yzewevmeywreomvi"
+    "ekwyavygontowaer"
+    "udsoyrexvuamtyse"
+    "weesuvizpituiqow"
+    "uzoretzemuultiaz"
+    "icukoqiwolxuykos"
+    "upwiymitisneroxe"
+    "yxanlekyixxirasi"
+    "asxoapuxqaohezwo"
+    "oxdigyquziutpave"
+    "zohexyvyguqyqidy"
+    "ovynumunuwsusyen"
+    "xaatyvusivaripfy"
+    "oftesaysozuregin"
+    "alifkazaadytwuub"
+    "zuvoothymivazy"
 )
+
 
 pool +=(10*19*2 - len(pool))*"?"
 
