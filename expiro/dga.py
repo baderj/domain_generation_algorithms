@@ -1,9 +1,9 @@
 import argparse
 
+
 class Rand:
     def __init__(self, seed):
-        self.seed = seed
-        self.r = self.seed
+        self.r = seed
 
     def rand(self):
         v = (214013 * self.r + 2531011) & 0xFFFFFFFF
@@ -18,9 +18,9 @@ def dga(seed):
     for i in range(128):
         r = Rand(seed ^ i)
         k = r.rand()
-        l = 5 + k % 5
+        domainNameLength = 5 + k % 5
         domain = ""
-        for c in range(l):
+        for c in range(domainNameLength):
             n = r.rand()
             letter = chr(n % 26 + ord("a"))
             domain += letter
@@ -28,10 +28,12 @@ def dga(seed):
 
         yield domain
 
+
 def seed_parser(s):
     return int(s, 0)
 
-if __name__=="__main__":
+
+if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("-s", "--seed", default=0x2484A18, type=seed_parser)
     args = parser.parse_args()
