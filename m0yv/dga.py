@@ -33,6 +33,12 @@ def seed_parser(s):
 
 if __name__=="__main__":
     parser = argparse.ArgumentParser()
+
+    """ known seeds are
+        - 0x02484A18
+        - 0x00128a0e 
+        - 0x7178af3f
+    """
     parser.add_argument("-s", "--seed", default=0x2484A18, type=seed_parser)
     args = parser.parse_args()
     for domain in dga(args.seed):

@@ -58,7 +58,11 @@ def seed_parser(s):
 
 if __name__=="__main__":
     parser = argparse.ArgumentParser()
-    # other known seeds are 0x128a0e, 0x7178af3f
+    """ known seeds are
+        - 0x02484A18
+        - 0x00128a0e 
+        - 0x7178af3f
+    """
     parser.add_argument("-s", "--seed", default=0x2484A18, type=seed_parser)
     parser.add_argument(
         "-d", "--date", 
