@@ -234,6 +234,30 @@ Buggy DGA:
 </details>
 
 
+<details><summary>m0yv</summary>
+
+### Links
+
+- [https://malpedia.caad.fkie.fraunhofer.de/details/win.m0yv](https://malpedia.caad.fkie.fraunhofer.de/details/win.m0yv)
+
+Time independent version in `dga.py`, time-dependent version in `dga-td.py`.
+
+### Example Domains
+
+- pywolwnvd.biz
+- ssbzmoy.biz
+- cvgrf.biz
+- npukfztj.biz
+- przvgke.biz
+- zlenh.biz
+- knjghuig.biz
+- uhxqin.biz
+- anpmnmxo.biz
+- lpuegx.biz
+
+</details>
+
+
 <details><summary>monerodownloader</summary>
 
 ### Example Domains
