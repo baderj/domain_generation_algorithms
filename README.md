@@ -813,6 +813,21 @@ Time independent version in `dga.py`, time-dependent version in `dga-td.py`.
 - pxqgonyogeee.com
 </details>
 
+<details><summary>tufik</summary>
+
+### Example Domains
+- dbqwpmpnruesywj.com
+- qxxmubfleztlnkx.com
+- rrnywowqgmjvnltg.com
+- rqnjdvzpsmbuw.com
+- utoiopxjrphvoiy.org
+- ttoouemmimnxnmj.com
+- nmjsoourllgveecj.org
+- juprvzxqotonvvs.biz
+- nmjsoourllgveecj.biz
+- dotqwjmhqlushjlo.biz
+</details>
+
 
 <details><summary>unknown_malware</summary>
 
