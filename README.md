@@ -680,6 +680,18 @@ Time independent version in `dga.py`, time-dependent version in `dga-td.py`.
 - VCiZNQXwpO.com
 </details>
 
+<details><summary>sharkbot</summary>
+
+### Example Domains
+- 64f30398ecda3bbf.xyz
+- f008fc473fddedc4.live
+- cfbadaf0cd7b0ac3.com
+- b8d28386413029fe.store
+- 99c485497c079a09.info
+- 6d54b683fc2cc58f.top
+- abb7547058fef9fb.net
+</details>
+
 
 <details><summary>shiotob (aka Urlzone, Bebloh)</summary>
 
