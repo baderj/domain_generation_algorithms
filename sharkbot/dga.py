@@ -3,10 +3,7 @@ import hashlib
 from datetime import datetime
 
 
-def dga(date: datetime = None):
-    if not date:
-        date = datetime.now()
-
+def dga(date: datetime):
     tlds = [".xyz", ".live", ".com", ".store", ".info", ".top", ".net"]
 
     # this will actually be locale dependent, so be prepared for + or -
@@ -25,6 +22,10 @@ if __name__ == "__main__":
         "-d", "--date", help="date for which to generate domains, e.g., 2022-05-09"
     )
     args = parser.parse_args()
+    if args.date:
+        date = datetime.strptime(args.date, "%Y-%m-%d")
+    else:
+        date = datetime.now()
 
-    for domain in dga(date=args.date):
+    for domain in dga(date=date):
         print(domain)
