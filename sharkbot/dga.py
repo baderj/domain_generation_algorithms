@@ -5,12 +5,16 @@ from datetime import datetime
 
 
 def dga(date: datetime, version: str):
-    tlds = [".xyz", ".live", ".com", ".store", ".info", ".top", ".net"]
 
     # this will actually be locale dependent, so be prepared for + or -
     # on week shifts
     week_of_year = date.isocalendar()[1]
     year = date.year
+    if version == "1.0":
+        tlds = [".top", ".xyz", ".cc", ".info", ".com", ".ru", ".net"]
+    else:
+        tlds = [".xyz", ".live", ".com", ".store", ".info", ".top", ".net"]
+
     for tld in tlds:
         if version == "2.8":
             s = f"{tld}{week_of_year}{year}"
@@ -22,7 +26,7 @@ def dga(date: datetime, version: str):
             t = f"{h}{year}"
             sld = t[:16]
         elif version == "1.0":
-            s = f"{week_of_year}pojBI9LHGFdfgegjjsJ99hvVGHVOjhksdf"
+            s = f"{week_of_year}{year}pojBI9LHGFdfgegjjsJ99hvVGHVOjhksdf"
             b = base64.b64encode(s.encode('ascii'))
             sld = b[:19].decode('ascii').lower()
         yield f"{sld}{tld}"
