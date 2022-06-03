@@ -21,7 +21,11 @@ def dga(date: datetime, version: str):
             h = hashlib.md5(s.encode("ascii")).hexdigest()
             t = f"{h}{year}"
             sld = t[:16]
-        elif version == "1.0":
+        elif version == "1.63":
+            s = f"{week_of_year}{year}pojBI9LHGFdfgegjjsJ99hvVGHVOjhksdf"
+            b = base64.b64encode(s.encode('ascii'))
+            sld = b[:19].decode('ascii').lower()
+        elif version == "0.0":
             s = f"{week_of_year}pojBI9LHGFdfgegjjsJ99hvVGHVOjhksdf"
             b = base64.b64encode(s.encode('ascii'))
             sld = b[:19].decode('ascii').lower()
@@ -34,7 +38,7 @@ if __name__ == "__main__":
         "-d", "--date", help="date for which to generate domains, e.g., 2022-05-09"
     )
     parser.add_argument(
-        "-v", "--version", help="version of the dga", choices=["1.0", "2.8", "2.1"], default="2.8"
+        "-v", "--version", help="version of the dga", choices=["0.0", "1.63", "2.8", "2.1"], default="2.8"
     )
     args = parser.parse_args()
     if args.date:
