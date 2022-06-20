@@ -55,8 +55,6 @@ def sums_to_sld(data: bytearray) -> str:
 
 
 def dga(date: datetime = None, magic: int = 0x997722ED):
-    if not date:
-        date = datetime.now()
     for idx in range(1020):
         seed = seed_data(date=date, idx=idx)
         enc_seed = encrypt_seed(data=seed, key=magic)
@@ -77,7 +75,8 @@ if __name__ == "__main__":
         "-m", "--magic", choices=["0x997722ED"], default="0x997722ED", help="magic seed"
     )
     args = parser.parse_args()
+    d = datetime.strptime(args.date, "%Y-%m-%d") if args.date else datetime.now()
 
     magic = int(args.magic, 16)
-    for domain in dga(date=args.date, magic=magic):
+    for domain in dga(date=d, magic=magic):
         print(domain)
