@@ -11,7 +11,7 @@ def dga(date: datetime, version: str):
     week_of_year = date.isocalendar()[1]
     year = date.year
     if version in {"0.0", "1.63"}:
-        tlds = [".top", ".xyz", ".cc", ".info", ".com", ".ru", ".info", ".net"]
+        tlds = [".top", ".xyz", ".cc", ".info", ".com", ".ru", ".net"]
     else:
         tlds = [".xyz", ".live", ".com", ".store", ".info", ".top", ".net"]
 
