@@ -911,6 +911,20 @@ Time independent version in `dga.py`, time-dependent version in `dga-td.py`.
 </details>
 
 
+<details><summary>xmrig_genesis (a XMRig malware using the bitcoin genesis block as seed))</summary>
+
+### Example Domains
+- 1d78e50d.com
+- 1d78e50d.net
+- 1d78e50d.org
+- 1d78e50d.duckdns.org
+- 2b04216f.com
+- 2b04216f.net
+- 2b04216f.org
+- 2b04216f.duckdns.org
+- 2e1d985c.com
+- 2e1d985c.net
+
 <details><summary>zloader</summary>
 
 ### Links
