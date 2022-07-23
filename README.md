@@ -924,6 +924,7 @@ Time independent version in `dga.py`, time-dependent version in `dga-td.py`.
 - 2b04216f.duckdns.org
 - 2e1d985c.com
 - 2e1d985c.net
+</details>
 
 <details><summary>zloader</summary>
 
