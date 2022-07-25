@@ -66,7 +66,7 @@ def dga(date: datetime = None, magic: int = 0x997722ED):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="DGA of MyDoom")
+    parser = argparse.ArgumentParser(description="DGA of Tufik")
     parser.add_argument(
         "-d", "--date", help="date for which to generate domains, e.g., 2022-05-09"
     )
