@@ -75,8 +75,9 @@ def get_blockchain_seed(when, updated: bool = False) -> str:
                 the current transaction you like to access """
             refresh_blockchain_db()
             return get_blockchain_seed(when, updated=True)
+
         balance = transaction['balance']
-        return PATTERN.replace("FB", str(balance)).replace("NTX", str(ntx-1))
+        return PATTERN.replace("FB", str(balance)).replace("NTX", str(ntx-i-1))
     raise ValueError("the provided date is before the first transaction")
 
 
@@ -107,7 +108,7 @@ def date_parser(s):
 if __name__ == "__main__":
     now = datetime.now().strftime("%Y-%m-%d")
     parser = argparse.ArgumentParser(
-        description="XMRig malware with DGA based on Bitcoin Genesis Block"
+        description="Orchard malware with DGA based on Bitcoin Genesis Block"
     )
     parser.add_argument(
         "-d", "--date",
@@ -120,7 +121,16 @@ if __name__ == "__main__":
         help="also generate blockchain domains, requires blockchain db",
         action='store_true'
     )
+    parser.add_argument(
+        "-u", "--update",
+        help="just update of blockchain db",
+        action='store_true'
+    )
     args = parser.parse_args()
+
+    if args.update:
+        refresh_blockchain_db()
+        exit()
 
     for domain in dga(args.date, args.blockchain):
         print(domain)
