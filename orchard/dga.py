@@ -58,7 +58,7 @@ def get_blockchain_seed(when, updated: bool = False) -> str:
 
     transactions = sorted(
         transactions.values(),
-        key=lambda x: x['time'],
+        key=lambda x: x['balance'],
         reverse=True
     )
     ntx = len(transactions) + 1
