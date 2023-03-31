@@ -239,6 +239,7 @@ Buggy DGA:
 ### Links
 
 - [https://malpedia.caad.fkie.fraunhofer.de/details/win.m0yv](https://malpedia.caad.fkie.fraunhofer.de/details/win.m0yv)
+- [YouTube video "Sinkholing the Domain Generation Algorithm of m0yv"](https://youtu.be/3RYbkORtFnk)
 
 Time independent version in `dga.py`, time-dependent version in `dga-td.py`.
 
