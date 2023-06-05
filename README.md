@@ -842,7 +842,7 @@ Time independent version in `dga.py`, time-dependent version in `dga-td.py`.
 </details>
 
 
-<details><summary>unknown_malware</summary>
+<details><summary>dmsniff</summary>
 
 ### Example Domains
 - albdfhln.com
