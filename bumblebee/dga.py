@@ -10,9 +10,6 @@ def seed(magic: int, time: Optional[datetime] = None) -> int:
         secs = time.second
         month = time.month - 1
         year = time.year
-        secs = 0
-        month = 0
-        year = 0
     else:
         secs = 32
         month = 13 
