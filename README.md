@@ -58,6 +58,21 @@ Buggy DGA:
 </details>
 
 
+<details><summary>bumblebee</summary>
+
+### Example Domains
+- cmid1s1zeiu.life
+- itszko2ot5u.life
+- 3v1n35i5kwx.life
+- newdnq1xnl9.life
+- jkyj6awt1ao.life
+- ddrjv6y42b8.life
+- 1pnhp5o5za1.life
+- y13iqvlfjl5.life
+- xp0btfgegbo.life
+</details>
+
+
 <details><summary>chinad</summary>
 
 ### Links
