@@ -400,6 +400,26 @@ Time independent version in `dga.py`, time-dependent version in `dga-td.py`.
 </details>
 
 
+<details><summary>ngioweb</summary>
+
+### Links
+- [Netlab - An Analysis of Linux.Ngioweb Botnet](https://blog.netlab.360.com/an-analysis-of-linux-ngioweb-botnet-en/)
+- [Netlab - Quick update on the Linux.Ngioweb botnet, now it is going after IoT devices](https://blog.netlab.360.com/linux-ngioweb-v2-going-after-iot-devices-en/)
+
+### Example Domains
+minihileth-subatudofy.org
+revodihudom.info
+enisobure-antidimadom-minikevuship.org
+semiridinution-postepudency.com
+prolefexity-disorisance.org
+nonebazish-disahibelen-misehurarage.name
+ilolupage-nonurisudize-minikazolike.net
+semicofaxiful-enixakor-subafapehen.info
+overedaxive-nonameraness.net
+prevomozary-microfemaly.info
+</details>
+
+
 <details><summary>nymaim</summary>
 
 ### Example Domains
