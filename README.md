@@ -110,6 +110,24 @@ Buggy DGA:
 - uliry8knadmpmdm4wti6oro.ddns.net
 </details>
 
+<details><summary>darkcracks</summary>
+
+### Links
+- [https://blog.xlab.qianxin.com/uncovering_darkcracks_payload_delivery_framework_cn/#part2-runner%E5%88%86%E6%9E%90](https://blog.xlab.qianxin.com/uncovering_darkcracks_payload_delivery_framework_cn/#part2-runner%E5%88%86%E6%9E%90)
+
+### Example Domains
+- sTDFUgOAgjL.com
+- EVDFUgOAgjL.com
+- AVDFUgOAgjL.com
+- MVDFUgOAgjL.com
+- IVDFUgOAgjL.com
+- UVDFUgOAgjL.com
+- QVDFUgOAgjL.com
+- YTCFUgOAgjL.com
+- kTCFUgOAgjL.com
+- gTCFUgOAgjL.com
+</details>
+
 
 <details><summary>dircrypt</summary>
 
