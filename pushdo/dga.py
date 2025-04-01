@@ -32,6 +32,15 @@ configs = {
         "mod": 8,
         "mod2": 2,
         "tld": "kz"
+    },
+    "kz_v3": {
+        "conso_a": "zhjntdwmqbglpxrsfc",
+        "conso_b": "rlngbtkszpfdcmx", 
+        "vowels_a": "aeiou",
+        "vowels_b": "aio",
+        "mod": 8,
+        "mod2": 2,
+        "tld": "kz"
     }
 }
 
@@ -44,13 +53,12 @@ def part(r, c):
     conso_b = config.get('conso_b')
     vowels_a = config.get('vowels_a')
     vowels_b = config.get('vowels_b')
-    assert(len(conso_a) == 19)
     assert(len(vowels_a) == 5)
     assert(len(vowels_b) == 3)
     assert(len(conso_b) == 15)
 
     string = ""
-    string += conso_a[r % 19]
+    string += conso_a[r % len(conso_a)]
     rp2 = r + 2
     string += vowels_a[((r+1) & 0xFF) % 5]
     if string[1] == 'e' and rp2 & mod:
@@ -107,7 +115,7 @@ def generate_domains(date, config):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="gozi dga")
+    parser = argparse.ArgumentParser(description="pushdo dga")
     parser.add_argument("-c", "--config", default="kz_v1", choices=list(configs.keys()))
     parser.add_argument("-d", "--date", 
             help="date for which to generate domains")
